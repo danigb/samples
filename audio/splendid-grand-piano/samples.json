@@ -1,0 +1,1478 @@
+{
+  "name": "Splendid Grand Piano",
+  "description": "Steinway samples with 4 velocity layers",
+  "source": "https://github.com/sfzinstruments/SplendidGrandPiano",
+  "license": "Public Domain",
+  "url": "https://danigb.github.io/samples/audio/splendid-grand-piano/",
+  "formats": [".ogg", ".m4a"],
+  "options": {
+    "releaseTime": 0.2
+  },
+  "layers": [
+    {
+      "name": "Mp",
+      "vel": [68, 84],
+      "samples": [
+        {
+          "midi": 11,
+          "id": "Mp-11",
+          "url": "Mp-B-1"
+        },
+        {
+          "midi": 15,
+          "id": "Mp-15",
+          "url": "Mp-D#0"
+        },
+        {
+          "midi": 17,
+          "id": "Mp-17",
+          "url": "Mp-F0"
+        },
+        {
+          "midi": 19,
+          "id": "Mp-19",
+          "url": "Mp-G0"
+        },
+        {
+          "midi": 21,
+          "id": "Mp-21",
+          "url": "Mp-A0"
+        },
+        {
+          "midi": 23,
+          "id": "Mp-23",
+          "url": "Mp-B0"
+        },
+        {
+          "midi": 25,
+          "id": "Mp-25",
+          "url": "Mp-C#1"
+        },
+        {
+          "midi": 26,
+          "id": "Mp-26",
+          "url": "Mp-D1"
+        },
+        {
+          "midi": 28,
+          "id": "Mp-28",
+          "url": "Mp-E1"
+        },
+        {
+          "midi": 29,
+          "id": "Mp-29",
+          "url": "Mp-F1"
+        },
+        {
+          "midi": 31,
+          "id": "Mp-31",
+          "url": "Mp-G1"
+        },
+        {
+          "midi": 33,
+          "id": "Mp-33",
+          "url": "Mp-A1"
+        },
+        {
+          "midi": 35,
+          "id": "Mp-35",
+          "url": "Mp-B1"
+        },
+        {
+          "midi": 36,
+          "id": "Mp-36",
+          "url": "Mp-C2"
+        },
+        {
+          "midi": 38,
+          "id": "Mp-38",
+          "url": "Mp-D2"
+        },
+        {
+          "midi": 40,
+          "id": "Mp-40",
+          "url": "Mp-E2"
+        },
+        {
+          "midi": 41,
+          "id": "Mp-41",
+          "url": "Mp-F2"
+        },
+        {
+          "midi": 43,
+          "id": "Mp-43",
+          "url": "Mp-G2"
+        },
+        {
+          "midi": 44,
+          "id": "Mp-44",
+          "url": "Mp-G#2"
+        },
+        {
+          "midi": 45,
+          "id": "Mp-45",
+          "url": "Mp-A2"
+        },
+        {
+          "midi": 46,
+          "id": "Mp-46",
+          "url": "Mp-A#2"
+        },
+        {
+          "midi": 47,
+          "id": "Mp-47",
+          "url": "Mp-B2"
+        },
+        {
+          "midi": 48,
+          "id": "Mp-48",
+          "url": "Mp-C3"
+        },
+        {
+          "midi": 50,
+          "id": "Mp-50",
+          "url": "Mp-D3"
+        },
+        {
+          "midi": 52,
+          "id": "Mp-52",
+          "url": "Mp-E3"
+        },
+        {
+          "midi": 53,
+          "id": "Mp-53",
+          "url": "Mp-F3"
+        },
+        {
+          "midi": 55,
+          "id": "Mp-55",
+          "url": "Mp-G3"
+        },
+        {
+          "midi": 57,
+          "id": "Mp-57",
+          "url": "Mp-A3"
+        },
+        {
+          "midi": 59,
+          "id": "Mp-59",
+          "url": "Mp-B3"
+        },
+        {
+          "midi": 60,
+          "id": "Mp-60",
+          "url": "Mp-C4"
+        },
+        {
+          "midi": 62,
+          "id": "Mp-62",
+          "url": "Mp-D4"
+        },
+        {
+          "midi": 64,
+          "id": "Mp-64",
+          "url": "Mp-E4"
+        },
+        {
+          "midi": 65,
+          "id": "Mp-65",
+          "url": "Mp-F4"
+        },
+        {
+          "midi": 67,
+          "id": "Mp-67",
+          "url": "Mp-G4"
+        },
+        {
+          "midi": 68,
+          "id": "Mp-68",
+          "url": "Mp-G#4"
+        },
+        {
+          "midi": 69,
+          "id": "Mp-69",
+          "url": "Mp-A4"
+        },
+        {
+          "midi": 70,
+          "id": "Mp-70",
+          "url": "Mp-A#4"
+        },
+        {
+          "midi": 71,
+          "id": "Mp-71",
+          "url": "Mp-B4"
+        },
+        {
+          "midi": 73,
+          "id": "Mp-73",
+          "url": "Mp-C#5"
+        },
+        {
+          "midi": 74,
+          "id": "Mp-74",
+          "url": "Mp-D5"
+        },
+        {
+          "midi": 75,
+          "id": "Mp-75",
+          "url": "Mp-D#5"
+        },
+        {
+          "midi": 76,
+          "id": "Mp-76",
+          "url": "Mp-E5"
+        },
+        {
+          "midi": 77,
+          "id": "Mp-77",
+          "url": "Mp-F5"
+        },
+        {
+          "midi": 78,
+          "id": "Mp-78",
+          "url": "Mp-F#5"
+        },
+        {
+          "midi": 79,
+          "id": "Mp-79",
+          "url": "Mp-G5"
+        },
+        {
+          "midi": 80,
+          "id": "Mp-80",
+          "url": "Mp-G#5"
+        },
+        {
+          "midi": 81,
+          "id": "Mp-81",
+          "url": "Mp-A5"
+        },
+        {
+          "midi": 82,
+          "id": "Mp-82",
+          "url": "Mp-A#5"
+        },
+        {
+          "midi": 83,
+          "id": "Mp-83",
+          "url": "Mp-B5"
+        },
+        {
+          "midi": 84,
+          "id": "Mp-84",
+          "url": "Mp-C6"
+        },
+        {
+          "midi": 85,
+          "id": "Mp-85",
+          "url": "Mp-C#6"
+        },
+        {
+          "midi": 86,
+          "id": "Mp-86",
+          "url": "Mp-D6"
+        },
+        {
+          "midi": 87,
+          "id": "Mp-87",
+          "url": "Mp-D#6"
+        },
+        {
+          "midi": 89,
+          "id": "Mp-89",
+          "url": "Mp-F6"
+        },
+        {
+          "midi": 90,
+          "id": "Mp-90",
+          "url": "Mp-F#6"
+        },
+        {
+          "midi": 91,
+          "id": "Mp-91",
+          "url": "Mp-G6"
+        },
+        {
+          "midi": 92,
+          "id": "Mp-92",
+          "url": "Mp-G#6"
+        },
+        {
+          "midi": 93,
+          "id": "Mp-93",
+          "url": "Mp-A6"
+        },
+        {
+          "midi": 94,
+          "id": "Mp-94",
+          "url": "Mp-A#6"
+        }
+      ]
+    },
+    {
+      "name": "pp",
+      "vel": [41, 67],
+      "samples": [
+        {
+          "midi": 11,
+          "id": "pp-11",
+          "url": "PP-B-1"
+        },
+        {
+          "midi": 15,
+          "id": "pp-15",
+          "url": "PP-D#0"
+        },
+        {
+          "midi": 17,
+          "id": "pp-17",
+          "url": "PP-F0"
+        },
+        {
+          "midi": 19,
+          "id": "pp-19",
+          "url": "PP-G0"
+        },
+        {
+          "midi": 21,
+          "id": "pp-21",
+          "url": "PP-A0"
+        },
+        {
+          "midi": 23,
+          "id": "pp-23",
+          "url": "PP-B0"
+        },
+        {
+          "midi": 25,
+          "id": "pp-25",
+          "url": "PP-C#1"
+        },
+        {
+          "midi": 26,
+          "id": "pp-26",
+          "url": "PP-D1"
+        },
+        {
+          "midi": 28,
+          "id": "pp-28",
+          "url": "PP-E1"
+        },
+        {
+          "midi": 29,
+          "id": "pp-29",
+          "url": "PP-F1"
+        },
+        {
+          "midi": 31,
+          "id": "pp-31",
+          "url": "PP-G1"
+        },
+        {
+          "midi": 33,
+          "id": "pp-33",
+          "url": "PP-A1"
+        },
+        {
+          "midi": 35,
+          "id": "pp-35",
+          "url": "PP-B1"
+        },
+        {
+          "midi": 36,
+          "id": "pp-36",
+          "url": "PP-C2"
+        },
+        {
+          "midi": 38,
+          "id": "pp-38",
+          "url": "PP-D2"
+        },
+        {
+          "midi": 40,
+          "id": "pp-40",
+          "url": "PP-E2"
+        },
+        {
+          "midi": 41,
+          "id": "pp-41",
+          "url": "PP-F2"
+        },
+        {
+          "midi": 43,
+          "id": "pp-43",
+          "url": "PP-G2"
+        },
+        {
+          "midi": 44,
+          "id": "pp-44",
+          "url": "PP-G#2"
+        },
+        {
+          "midi": 45,
+          "id": "pp-45",
+          "url": "PP-A2"
+        },
+        {
+          "midi": 46,
+          "id": "pp-46",
+          "url": "PP-A#2"
+        },
+        {
+          "midi": 47,
+          "id": "pp-47",
+          "url": "PP-B2"
+        },
+        {
+          "midi": 48,
+          "id": "pp-48",
+          "url": "PP-C3"
+        },
+        {
+          "midi": 50,
+          "id": "pp-50",
+          "url": "PP-D3"
+        },
+        {
+          "midi": 52,
+          "id": "pp-52",
+          "url": "PP-E3"
+        },
+        {
+          "midi": 53,
+          "id": "pp-53",
+          "url": "PP-F3"
+        },
+        {
+          "midi": 55,
+          "id": "pp-55",
+          "url": "PP-G3"
+        },
+        {
+          "midi": 57,
+          "id": "pp-57",
+          "url": "PP-A3"
+        },
+        {
+          "midi": 59,
+          "id": "pp-59",
+          "url": "PP-B3"
+        },
+        {
+          "midi": 60,
+          "id": "pp-60",
+          "url": "PP-C4"
+        },
+        {
+          "midi": 62,
+          "id": "pp-62",
+          "url": "PP-D4"
+        },
+        {
+          "midi": 64,
+          "id": "pp-64",
+          "url": "PP-E4"
+        },
+        {
+          "midi": 65,
+          "id": "pp-65",
+          "url": "PP-F4"
+        },
+        {
+          "midi": 67,
+          "id": "pp-67",
+          "url": "PP-G4"
+        },
+        {
+          "midi": 68,
+          "id": "pp-68",
+          "url": "PP-G#4"
+        },
+        {
+          "midi": 69,
+          "id": "pp-69",
+          "url": "PP-A4"
+        },
+        {
+          "midi": 70,
+          "id": "pp-70",
+          "url": "PP-A#4"
+        },
+        {
+          "midi": 71,
+          "id": "pp-71",
+          "url": "PP-B4"
+        },
+        {
+          "midi": 73,
+          "id": "pp-73",
+          "url": "PP-C#5"
+        },
+        {
+          "midi": 74,
+          "id": "pp-74",
+          "url": "PP-D5"
+        },
+        {
+          "midi": 75,
+          "id": "pp-75",
+          "url": "PP-D#5"
+        },
+        {
+          "midi": 77,
+          "id": "pp-77",
+          "url": "PP-F5"
+        },
+        {
+          "midi": 78,
+          "id": "pp-78",
+          "url": "PP-F#5"
+        },
+        {
+          "midi": 79,
+          "id": "pp-79",
+          "url": "PP-G5"
+        },
+        {
+          "midi": 80,
+          "id": "pp-80",
+          "url": "PP-G#5"
+        },
+        {
+          "midi": 81,
+          "id": "pp-81",
+          "url": "PP-A5"
+        },
+        {
+          "midi": 82,
+          "id": "pp-82",
+          "url": "PP-A#5"
+        },
+        {
+          "midi": 83,
+          "id": "pp-83",
+          "url": "PP-B5"
+        },
+        {
+          "midi": 84,
+          "id": "pp-84",
+          "url": "PP-C6"
+        },
+        {
+          "midi": 85,
+          "id": "pp-85",
+          "url": "PP-C#6"
+        },
+        {
+          "midi": 86,
+          "id": "pp-86",
+          "url": "PP-D6"
+        },
+        {
+          "midi": 87,
+          "id": "pp-87",
+          "url": "PP-D#6"
+        },
+        {
+          "midi": 88,
+          "id": "pp-88",
+          "url": "PP-E6"
+        },
+        {
+          "midi": 89,
+          "id": "pp-89",
+          "url": "PP-F6"
+        },
+        {
+          "midi": 90,
+          "id": "pp-90",
+          "url": "PP-F#6"
+        },
+        {
+          "midi": 91,
+          "id": "pp-91",
+          "url": "PP-G6"
+        },
+        {
+          "midi": 92,
+          "id": "pp-92",
+          "url": "PP-G#6"
+        },
+        {
+          "midi": 93,
+          "id": "pp-93",
+          "url": "PP-A6"
+        },
+        {
+          "midi": 94,
+          "id": "pp-94",
+          "url": "PP-A#6"
+        },
+        {
+          "midi": 95,
+          "id": "pp-95",
+          "url": "PP-B6"
+        },
+        {
+          "midi": 96,
+          "id": "pp-96",
+          "url": "PP-C7"
+        }
+      ]
+    },
+    {
+      "name": "FF",
+      "vel": [101, 127],
+      "samples": [
+        {
+          "midi": 11,
+          "id": "FF-11",
+          "url": "FF-B-1"
+        },
+        {
+          "midi": 15,
+          "id": "FF-15",
+          "url": "FF-D#0"
+        },
+        {
+          "midi": 17,
+          "id": "FF-17",
+          "url": "FF-F0"
+        },
+        {
+          "midi": 19,
+          "id": "FF-19",
+          "url": "FF-G0"
+        },
+        {
+          "midi": 21,
+          "id": "FF-21",
+          "url": "FF-A0"
+        },
+        {
+          "midi": 23,
+          "id": "FF-23",
+          "url": "FF-B0"
+        },
+        {
+          "midi": 25,
+          "id": "FF-25",
+          "url": "FF-C#1"
+        },
+        {
+          "midi": 26,
+          "id": "FF-26",
+          "url": "FF-D1"
+        },
+        {
+          "midi": 28,
+          "id": "FF-28",
+          "url": "FF-E1"
+        },
+        {
+          "midi": 29,
+          "id": "FF-29",
+          "url": "FF-F1"
+        },
+        {
+          "midi": 31,
+          "id": "FF-31",
+          "url": "FF-G1"
+        },
+        {
+          "midi": 33,
+          "id": "FF-33",
+          "url": "FF-A1"
+        },
+        {
+          "midi": 35,
+          "id": "FF-35",
+          "url": "FF-B1"
+        },
+        {
+          "midi": 36,
+          "id": "FF-36",
+          "url": "FF-C2"
+        },
+        {
+          "midi": 38,
+          "id": "FF-38",
+          "url": "FF-D2"
+        },
+        {
+          "midi": 40,
+          "id": "FF-40",
+          "url": "FF-E2"
+        },
+        {
+          "midi": 41,
+          "id": "FF-41",
+          "url": "FF-F2"
+        },
+        {
+          "midi": 43,
+          "id": "FF-43",
+          "url": "FF-G2"
+        },
+        {
+          "midi": 44,
+          "id": "FF-44",
+          "url": "FF-G#2"
+        },
+        {
+          "midi": 45,
+          "id": "FF-45",
+          "url": "FF-A2"
+        },
+        {
+          "midi": 46,
+          "id": "FF-46",
+          "url": "FF-A#2"
+        },
+        {
+          "midi": 47,
+          "id": "FF-47",
+          "url": "FF-B2"
+        },
+        {
+          "midi": 48,
+          "id": "FF-48",
+          "url": "FF-C3"
+        },
+        {
+          "midi": 50,
+          "id": "FF-50",
+          "url": "FF-D3"
+        },
+        {
+          "midi": 52,
+          "id": "FF-52",
+          "url": "FF-E3"
+        },
+        {
+          "midi": 53,
+          "id": "FF-53",
+          "url": "FF-F3"
+        },
+        {
+          "midi": 55,
+          "id": "FF-55",
+          "url": "FF-G3"
+        },
+        {
+          "midi": 57,
+          "id": "FF-57",
+          "url": "FF-A3"
+        },
+        {
+          "midi": 59,
+          "id": "FF-59",
+          "url": "FF-B3"
+        },
+        {
+          "midi": 60,
+          "id": "FF-60",
+          "url": "FF-C4"
+        },
+        {
+          "midi": 62,
+          "id": "FF-62",
+          "url": "FF-D4"
+        },
+        {
+          "midi": 64,
+          "id": "FF-64",
+          "url": "FF-E4"
+        },
+        {
+          "midi": 65,
+          "id": "FF-65",
+          "url": "FF-F4"
+        },
+        {
+          "midi": 67,
+          "id": "FF-67",
+          "url": "FF-G4"
+        },
+        {
+          "midi": 68,
+          "id": "FF-68",
+          "url": "FF-G#4"
+        },
+        {
+          "midi": 69,
+          "id": "FF-69",
+          "url": "FF-A4"
+        },
+        {
+          "midi": 70,
+          "id": "FF-70",
+          "url": "FF-A#4"
+        },
+        {
+          "midi": 71,
+          "id": "FF-71",
+          "url": "FF-B4"
+        },
+        {
+          "midi": 73,
+          "id": "FF-73",
+          "url": "FF-C#5"
+        },
+        {
+          "midi": 74,
+          "id": "FF-74",
+          "url": "FF-D5"
+        },
+        {
+          "midi": 76,
+          "id": "FF-76",
+          "url": "FF-E5"
+        },
+        {
+          "midi": 77,
+          "id": "FF-77",
+          "url": "FF-F5"
+        },
+        {
+          "midi": 79,
+          "id": "FF-79",
+          "url": "FF-G5"
+        },
+        {
+          "midi": 81,
+          "id": "FF-81",
+          "url": "FF-A5"
+        }
+      ]
+    },
+    {
+      "name": "MF",
+      "vel": [85, 100],
+      "samples": [
+        {
+          "midi": 11,
+          "id": "MF-11",
+          "url": "Mf-B-1"
+        },
+        {
+          "midi": 15,
+          "id": "MF-15",
+          "url": "Mf-D#0"
+        },
+        {
+          "midi": 17,
+          "id": "MF-17",
+          "url": "Mf-F0"
+        },
+        {
+          "midi": 19,
+          "id": "MF-19",
+          "url": "Mf-G0"
+        },
+        {
+          "midi": 21,
+          "id": "MF-21",
+          "url": "Mf-A0"
+        },
+        {
+          "midi": 23,
+          "id": "MF-23",
+          "url": "Mf-B0"
+        },
+        {
+          "midi": 25,
+          "id": "MF-25",
+          "url": "Mf-C#1"
+        },
+        {
+          "midi": 26,
+          "id": "MF-26",
+          "url": "Mf-D1"
+        },
+        {
+          "midi": 28,
+          "id": "MF-28",
+          "url": "Mf-E1"
+        },
+        {
+          "midi": 29,
+          "id": "MF-29",
+          "url": "Mf-F1"
+        },
+        {
+          "midi": 31,
+          "id": "MF-31",
+          "url": "Mf-G1"
+        },
+        {
+          "midi": 33,
+          "id": "MF-33",
+          "url": "Mf-A1"
+        },
+        {
+          "midi": 35,
+          "id": "MF-35",
+          "url": "Mf-B1"
+        },
+        {
+          "midi": 36,
+          "id": "MF-36",
+          "url": "Mf-C2"
+        },
+        {
+          "midi": 38,
+          "id": "MF-38",
+          "url": "Mf-D2"
+        },
+        {
+          "midi": 40,
+          "id": "MF-40",
+          "url": "Mf-E2"
+        },
+        {
+          "midi": 41,
+          "id": "MF-41",
+          "url": "Mf-F2"
+        },
+        {
+          "midi": 43,
+          "id": "MF-43",
+          "url": "Mf-G2"
+        },
+        {
+          "midi": 44,
+          "id": "MF-44",
+          "url": "Mf-G#2"
+        },
+        {
+          "midi": 45,
+          "id": "MF-45",
+          "url": "Mf-A2"
+        },
+        {
+          "midi": 46,
+          "id": "MF-46",
+          "url": "Mf-A#2"
+        },
+        {
+          "midi": 47,
+          "id": "MF-47",
+          "url": "Mf-B2"
+        },
+        {
+          "midi": 48,
+          "id": "MF-48",
+          "url": "Mf-C3"
+        },
+        {
+          "midi": 50,
+          "id": "MF-50",
+          "url": "Mf-D3"
+        },
+        {
+          "midi": 52,
+          "id": "MF-52",
+          "url": "Mf-E3"
+        },
+        {
+          "midi": 53,
+          "id": "MF-53",
+          "url": "Mf-F3"
+        },
+        {
+          "midi": 55,
+          "id": "MF-55",
+          "url": "Mf-G3"
+        },
+        {
+          "midi": 57,
+          "id": "MF-57",
+          "url": "Mf-A3"
+        },
+        {
+          "midi": 59,
+          "id": "MF-59",
+          "url": "Mf-B3"
+        },
+        {
+          "midi": 60,
+          "id": "MF-60",
+          "url": "Mf-C4"
+        },
+        {
+          "midi": 62,
+          "id": "MF-62",
+          "url": "Mf-D4"
+        },
+        {
+          "midi": 64,
+          "id": "MF-64",
+          "url": "Mf-E4"
+        },
+        {
+          "midi": 65,
+          "id": "MF-65",
+          "url": "Mf-F4"
+        },
+        {
+          "midi": 67,
+          "id": "MF-67",
+          "url": "Mf-G4"
+        },
+        {
+          "midi": 68,
+          "id": "MF-68",
+          "url": "Mf-G#4"
+        },
+        {
+          "midi": 69,
+          "id": "MF-69",
+          "url": "Mf-A4"
+        },
+        {
+          "midi": 70,
+          "id": "MF-70",
+          "url": "Mf-A#4"
+        },
+        {
+          "midi": 71,
+          "id": "MF-71",
+          "url": "Mf-B4"
+        },
+        {
+          "midi": 73,
+          "id": "MF-73",
+          "url": "Mf-C#5"
+        },
+        {
+          "midi": 74,
+          "id": "MF-74",
+          "url": "Mf-D5"
+        },
+        {
+          "midi": 75,
+          "id": "MF-75",
+          "url": "Mf-D#5"
+        },
+        {
+          "midi": 76,
+          "id": "MF-76",
+          "url": "Mf-E5"
+        },
+        {
+          "midi": 77,
+          "id": "MF-77",
+          "url": "Mf-F5"
+        },
+        {
+          "midi": 78,
+          "id": "MF-78",
+          "url": "Mf-F#5"
+        },
+        {
+          "midi": 79,
+          "id": "MF-79",
+          "url": "Mf-G5"
+        },
+        {
+          "midi": 80,
+          "id": "MF-80",
+          "url": "Mf-G#5"
+        },
+        {
+          "midi": 81,
+          "id": "MF-81",
+          "url": "Mf-A5"
+        },
+        {
+          "midi": 82,
+          "id": "MF-82",
+          "url": "Mf-A#5"
+        },
+        {
+          "midi": 83,
+          "id": "MF-83",
+          "url": "Mf-B5"
+        },
+        {
+          "midi": 84,
+          "id": "MF-84",
+          "url": "Mf-C6"
+        },
+        {
+          "midi": 85,
+          "id": "MF-85",
+          "url": "Mf-C#6"
+        },
+        {
+          "midi": 86,
+          "id": "MF-86",
+          "url": "Mf-D6"
+        },
+        {
+          "midi": 87,
+          "id": "MF-87",
+          "url": "Mf-D#6"
+        },
+        {
+          "midi": 88,
+          "id": "MF-88",
+          "url": "Mf-E6"
+        },
+        {
+          "midi": 89,
+          "id": "MF-89",
+          "url": "Mf-F6"
+        },
+        {
+          "midi": 90,
+          "id": "MF-90",
+          "url": "Mf-F#6"
+        },
+        {
+          "midi": 91,
+          "id": "MF-91",
+          "url": "Mf-G6"
+        },
+        {
+          "midi": 92,
+          "id": "MF-92",
+          "url": "Mf-G#6"
+        },
+        {
+          "midi": 93,
+          "id": "MF-93",
+          "url": "Mf-A6"
+        },
+        {
+          "midi": 94,
+          "id": "MF-94",
+          "url": "Mf-A#6"
+        },
+        {
+          "midi": 95,
+          "id": "MF-95",
+          "url": "Mf-B6"
+        },
+        {
+          "midi": 96,
+          "id": "MF-96",
+          "url": "Mf-C7"
+        }
+      ]
+    },
+    {
+      "name": "ppp",
+      "vel": [1, 40],
+      "samples": [
+        {
+          "midi": 11,
+          "id": "ppp-11",
+          "url": "PP-B-1"
+        },
+        {
+          "midi": 15,
+          "id": "ppp-15",
+          "url": "PP-D#0"
+        },
+        {
+          "midi": 17,
+          "id": "ppp-17",
+          "url": "PP-F0"
+        },
+        {
+          "midi": 19,
+          "id": "ppp-19",
+          "url": "PP-G0"
+        },
+        {
+          "midi": 21,
+          "id": "ppp-21",
+          "url": "PP-A0"
+        },
+        {
+          "midi": 23,
+          "id": "ppp-23",
+          "url": "PP-B0"
+        },
+        {
+          "midi": 25,
+          "id": "ppp-25",
+          "url": "PP-C#1"
+        },
+        {
+          "midi": 26,
+          "id": "ppp-26",
+          "url": "PP-D1"
+        },
+        {
+          "midi": 28,
+          "id": "ppp-28",
+          "url": "PP-E1"
+        },
+        {
+          "midi": 29,
+          "id": "ppp-29",
+          "url": "PP-F1"
+        },
+        {
+          "midi": 31,
+          "id": "ppp-31",
+          "url": "PP-G1"
+        },
+        {
+          "midi": 33,
+          "id": "ppp-33",
+          "url": "PP-A1"
+        },
+        {
+          "midi": 35,
+          "id": "ppp-35",
+          "url": "PP-B1"
+        },
+        {
+          "midi": 36,
+          "id": "ppp-36",
+          "url": "PP-C2"
+        },
+        {
+          "midi": 38,
+          "id": "ppp-38",
+          "url": "PP-D2"
+        },
+        {
+          "midi": 40,
+          "id": "ppp-40",
+          "url": "PP-E2"
+        },
+        {
+          "midi": 41,
+          "id": "ppp-41",
+          "url": "PP-F2"
+        },
+        {
+          "midi": 43,
+          "id": "ppp-43",
+          "url": "PP-G2"
+        },
+        {
+          "midi": 44,
+          "id": "ppp-44",
+          "url": "PP-G#2"
+        },
+        {
+          "midi": 45,
+          "id": "ppp-45",
+          "url": "PP-A2"
+        },
+        {
+          "midi": 46,
+          "id": "ppp-46",
+          "url": "PP-A#2"
+        },
+        {
+          "midi": 47,
+          "id": "ppp-47",
+          "url": "PP-B2"
+        },
+        {
+          "midi": 48,
+          "id": "ppp-48",
+          "url": "PP-C3"
+        },
+        {
+          "midi": 50,
+          "id": "ppp-50",
+          "url": "PP-D3"
+        },
+        {
+          "midi": 52,
+          "id": "ppp-52",
+          "url": "PP-E3"
+        },
+        {
+          "midi": 53,
+          "id": "ppp-53",
+          "url": "PP-F3"
+        },
+        {
+          "midi": 55,
+          "id": "ppp-55",
+          "url": "PP-G3"
+        },
+        {
+          "midi": 57,
+          "id": "ppp-57",
+          "url": "PP-A3"
+        },
+        {
+          "midi": 59,
+          "id": "ppp-59",
+          "url": "PP-B3"
+        },
+        {
+          "midi": 60,
+          "id": "ppp-60",
+          "url": "PP-C4"
+        },
+        {
+          "midi": 62,
+          "id": "ppp-62",
+          "url": "PP-D4"
+        },
+        {
+          "midi": 64,
+          "id": "ppp-64",
+          "url": "PP-E4"
+        },
+        {
+          "midi": 65,
+          "id": "ppp-65",
+          "url": "PP-F4"
+        },
+        {
+          "midi": 67,
+          "id": "ppp-67",
+          "url": "PP-G4"
+        },
+        {
+          "midi": 68,
+          "id": "ppp-68",
+          "url": "PP-G#4"
+        },
+        {
+          "midi": 69,
+          "id": "ppp-69",
+          "url": "PP-A4"
+        },
+        {
+          "midi": 70,
+          "id": "ppp-70",
+          "url": "PP-A#4"
+        },
+        {
+          "midi": 71,
+          "id": "ppp-71",
+          "url": "PP-B4"
+        },
+        {
+          "midi": 73,
+          "id": "ppp-73",
+          "url": "PP-C#5"
+        },
+        {
+          "midi": 74,
+          "id": "ppp-74",
+          "url": "PP-D5"
+        },
+        {
+          "midi": 75,
+          "id": "ppp-75",
+          "url": "PP-D#5"
+        },
+        {
+          "midi": 77,
+          "id": "ppp-77",
+          "url": "PP-F5"
+        },
+        {
+          "midi": 78,
+          "id": "ppp-78",
+          "url": "PP-F#5"
+        },
+        {
+          "midi": 79,
+          "id": "ppp-79",
+          "url": "PP-G5"
+        },
+        {
+          "midi": 80,
+          "id": "ppp-80",
+          "url": "PP-G#5"
+        },
+        {
+          "midi": 81,
+          "id": "ppp-81",
+          "url": "PP-A5"
+        },
+        {
+          "midi": 82,
+          "id": "ppp-82",
+          "url": "PP-A#5"
+        },
+        {
+          "midi": 83,
+          "id": "ppp-83",
+          "url": "PP-B5"
+        },
+        {
+          "midi": 84,
+          "id": "ppp-84",
+          "url": "PP-C6"
+        },
+        {
+          "midi": 85,
+          "id": "ppp-85",
+          "url": "PP-C#6"
+        },
+        {
+          "midi": 86,
+          "id": "ppp-86",
+          "url": "PP-D6"
+        },
+        {
+          "midi": 87,
+          "id": "ppp-87",
+          "url": "PP-D#6"
+        },
+        {
+          "midi": 88,
+          "id": "ppp-88",
+          "url": "PP-E6"
+        },
+        {
+          "midi": 89,
+          "id": "ppp-89",
+          "url": "PP-F6"
+        },
+        {
+          "midi": 90,
+          "id": "ppp-90",
+          "url": "PP-F#6"
+        },
+        {
+          "midi": 91,
+          "id": "ppp-91",
+          "url": "PP-G6"
+        },
+        {
+          "midi": 92,
+          "id": "ppp-92",
+          "url": "PP-G#6"
+        },
+        {
+          "midi": 93,
+          "id": "ppp-93",
+          "url": "PP-A6"
+        },
+        {
+          "midi": 94,
+          "id": "ppp-94",
+          "url": "PP-A#6"
+        },
+        {
+          "midi": 95,
+          "id": "ppp-95",
+          "url": "PP-B6"
+        },
+        {
+          "midi": 96,
+          "id": "ppp-96",
+          "url": "PP-C7"
+        }
+      ]
+    }
+  ]
+}
