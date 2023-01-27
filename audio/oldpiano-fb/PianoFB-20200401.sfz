@@ -1,0 +1,257 @@
+//+ Name: Piano FB
+//+ Date: 2020-04-01
+//+ URL: http://freepats.zenvoid.org/Piano/honky-tonk-piano.html#PianoFB
+
+<global>
+ //+ Instrument: Piano FB
+ ampeg_release=0.9
+
+<group>
+ loop_mode=no_loop
+<region>
+ lokey=19 hikey=20
+ pitch_keycenter=20
+ sample=samples/G#0.wav
+<region>
+ key=21
+ sample=samples/A0.wav
+<region>
+ key=22
+ sample=samples/A#0.wav
+<region>
+ key=23
+ sample=samples/B0.wav
+<region>
+ lokey=24 hikey=25
+ pitch_keycenter=24
+ sample=samples/C1.wav
+<region>
+ lokey=26 hikey=27
+ pitch_keycenter=27
+ sample=samples/D#1.wav
+<region>
+ key=28
+ sample=samples/E1.wav
+<region>
+ key=29
+ sample=samples/F1.wav
+<region>
+ key=30
+ sample=samples/F#1.wav
+<region>
+ key=31
+ sample=samples/G1.wav
+<region>
+ key=32
+ sample=samples/G#1.wav
+<region>
+ lokey=33 hikey=34
+ pitch_keycenter=33
+ sample=samples/A1.wav
+<region>
+ lokey=35 hikey=36
+ pitch_keycenter=36
+ sample=samples/C2.wav
+<region>
+ key=37
+ sample=samples/C#2.wav
+<region>
+ key=38
+ sample=samples/D2.wav
+<region>
+ key=39
+ sample=samples/D#2.wav
+<region>
+ key=40
+ sample=samples/E2.wav
+<region>
+ lokey=41
+ hikey=42
+ pitch_keycenter=41
+ sample=samples/F2.wav
+<region>
+ lokey=43 hikey=44
+ pitch_keycenter=44
+ sample=samples/G#2.wav
+<region>
+ key=45
+ sample=samples/A2.wav
+<region>
+ key=46
+ sample=samples/A#2.wav
+<region>
+ key=47
+ sample=samples/B2.wav
+<region>
+ key=48
+ sample=samples/C3.wav
+<region>
+ key=49
+ sample=samples/C#3.wav
+<region>
+ key=50
+ sample=samples/D3.wav
+<region>
+ lokey=51 hikey=52
+ pitch_keycenter=52
+ sample=samples/E3.wav
+<region>
+ key=53
+ sample=samples/F3.wav
+<region>
+ key=54
+ sample=samples/F#3.wav
+<region>
+ key=55
+ sample=samples/G3.wav
+<region>
+ key=56
+ sample=samples/G#3.wav
+<region>
+ key=57
+ sample=samples/A3.wav
+<region>
+ key=58
+ sample=samples/A#3.wav
+<region>
+ key=59
+ sample=samples/B3.wav
+<region>
+ key=60
+ sample=samples/C4.wav
+<region>
+ key=61
+ sample=samples/C#4.wav
+<region>
+ key=62
+ sample=samples/D4.wav
+<region>
+ key=63
+ sample=samples/D#4.wav
+<region>
+ key=64
+ sample=samples/E4.wav
+<region>
+ key=65
+ sample=samples/F4.wav
+<region>
+ lokey=66 hikey=67
+ pitch_keycenter=67
+ sample=samples/G4.wav
+<region>
+ key=68
+ sample=samples/G#4.wav
+<region>
+ key=69
+ sample=samples/A4.wav
+<region>
+ lokey=70 hikey=71
+ pitch_keycenter=71
+ sample=samples/B4.wav
+<region>
+ key=72
+ sample=samples/C5.wav
+<region>
+ key=73
+ sample=samples/C#5.wav
+<region>
+ key=74
+ sample=samples/D5.wav
+<region>
+ key=75
+ sample=samples/D#5.wav
+<region>
+ key=76
+ sample=samples/E5.wav
+<region>
+ key=77
+ sample=samples/F5.wav
+<region>
+ key=78
+ sample=samples/F#5.wav
+<region>
+ key=79
+ sample=samples/G5.wav
+<region>
+ key=80
+ sample=samples/G#5.wav
+<region>
+ key=81
+ sample=samples/A5.wav
+<region>
+ key=82
+ sample=samples/A#5.wav
+<region>
+ key=83
+ sample=samples/B5.wav
+<region>
+ key=84
+ sample=samples/C6.wav
+<region>
+ key=85
+ sample=samples/C#6.wav
+<region>
+ key=86
+ sample=samples/D6.wav
+<region>
+ key=87
+ sample=samples/D#6.wav
+<region>
+ key=88
+ sample=samples/E6.wav
+<region>
+ key=89
+ sample=samples/F6.wav
+<region>
+ key=90
+ sample=samples/F#6.wav
+<region>
+ key=91
+ sample=samples/G6.wav
+<region>
+ key=92
+ sample=samples/G#6.wav
+<region>
+ key=93
+ sample=samples/A6.wav
+<region>
+ key=94
+ sample=samples/A#6.wav
+<region>
+ key=95
+ sample=samples/B6.wav
+<region>
+ key=96
+ sample=samples/C7.wav
+<region>
+ key=97
+ sample=samples/C#7.wav
+<region>
+ key=98
+ sample=samples/D7.wav
+<region>
+ key=99
+ sample=samples/D#7.wav
+<region>
+ lokey=100 hikey=101
+ pitch_keycenter=101
+ sample=samples/F7.wav
+<region>
+ key=102
+ sample=samples/F#7.wav
+<region>
+ key=103
+ sample=samples/G7.wav
+<region>
+ key=104
+ sample=samples/G#7.wav
+<region>
+ key=105
+ sample=samples/A7.wav
+<region>
+ key=106
+ sample=samples/A#7.wav
+<region>
+ lokey=107 hikey=108
+ pitch_keycenter=107
+ sample=samples/B7.wav
