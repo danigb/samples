@@ -1,0 +1,2287 @@
+// Generation Options: --volume 10
+
+<group>
+trigger=attack
+ampeg_attack=0.004000
+ampeg_release=0.400000
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A#-1_v2_rr1_Player.wav
+pitch_keycenter=22
+lokey=21
+hikey=23
+tune=81
+volume=21.839387
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A#-1_v3_rr1_Player.wav
+pitch_keycenter=22
+lokey=21
+hikey=23
+volume=10.368743
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A#-1_v4_rr1_Player.wav
+pitch_keycenter=22
+lokey=21
+hikey=23
+volume=1.525999
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C0_v1_rr1_Player.wav
+pitch_keycenter=24
+lokey=24
+hikey=25
+offset=122
+tune=-2
+volume=34.950782
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C0_v2_rr1_Player.wav
+pitch_keycenter=24
+lokey=24
+hikey=25
+tune=-11
+volume=20.900335
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C0_v3_rr1_Player.wav
+pitch_keycenter=24
+lokey=24
+hikey=25
+tune=-16
+volume=9.579039
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C0_v4_rr1_Player.wav
+pitch_keycenter=24
+lokey=24
+hikey=25
+tune=-19
+volume=2.004889
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#0_v1_rr1_Player.wav
+pitch_keycenter=27
+lokey=26
+hikey=28
+offset=12
+tune=15
+volume=31.828131
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#0_v2_rr1_Player.wav
+pitch_keycenter=27
+lokey=26
+hikey=28
+tune=5
+volume=23.296689
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#0_v3_rr1_Player.wav
+pitch_keycenter=27
+lokey=26
+hikey=28
+offset=41
+tune=-5
+volume=10.197922
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#0_v4_rr1_Player.wav
+pitch_keycenter=27
+lokey=26
+hikey=28
+offset=19
+tune=-11
+volume=3.920419
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#0_v1_rr1_Player.wav
+pitch_keycenter=30
+lokey=29
+hikey=31
+tune=2
+volume=25.268819
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#0_v2_rr1_Player.wav
+pitch_keycenter=30
+lokey=29
+hikey=31
+tune=-2
+volume=18.664722
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#0_v3_rr1_Player.wav
+pitch_keycenter=30
+lokey=29
+hikey=31
+tune=-1
+volume=9.286635
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#0_v4_rr1_Player.wav
+pitch_keycenter=30
+lokey=29
+hikey=31
+tune=-4
+volume=2.804685
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A0_v1_rr1_Player.wav
+pitch_keycenter=33
+lokey=32
+hikey=34
+tune=6
+volume=29.558670
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A0_v2_rr1_Player.wav
+pitch_keycenter=33
+lokey=32
+hikey=34
+tune=1
+volume=17.284497
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A0_v3_rr1_Player.wav
+pitch_keycenter=33
+lokey=32
+hikey=34
+tune=-6
+volume=7.073447
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A0_v4_rr1_Player.wav
+pitch_keycenter=33
+lokey=32
+hikey=34
+tune=-6
+volume=0.378294
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C1_v1_rr1_Player.wav
+pitch_keycenter=36
+lokey=35
+hikey=37
+tune=14
+volume=35.923731
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C1_v2_rr1_Player.wav
+pitch_keycenter=36
+lokey=35
+hikey=37
+tune=3
+volume=23.510524
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C1_v3_rr1_Player.wav
+pitch_keycenter=36
+lokey=35
+hikey=37
+tune=-1
+volume=8.413683
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C1_v4_rr1_Player.wav
+pitch_keycenter=36
+lokey=35
+hikey=37
+tune=-2
+volume=5.142279
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#1_v1_rr1_Player.wav
+pitch_keycenter=39
+lokey=38
+hikey=40
+tune=8
+volume=32.042952
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#1_v2_rr1_Player.wav
+pitch_keycenter=39
+lokey=38
+hikey=40
+offset=29
+tune=6
+volume=23.740415
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#1_v3_rr1_Player.wav
+pitch_keycenter=39
+lokey=38
+hikey=40
+tune=2
+volume=9.676535
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#1_v4_rr1_Player.wav
+pitch_keycenter=39
+lokey=38
+hikey=40
+tune=1
+volume=4.667401
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#1_v1_rr1_Player.wav
+pitch_keycenter=42
+lokey=41
+hikey=43
+tune=1
+volume=28.104141
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#1_v2_rr1_Player.wav
+pitch_keycenter=42
+lokey=41
+hikey=43
+volume=17.866702
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#1_v3_rr1_Player.wav
+pitch_keycenter=42
+lokey=41
+hikey=43
+tune=-4
+volume=6.638552
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#1_v4_rr1_Player.wav
+pitch_keycenter=42
+lokey=41
+hikey=43
+tune=-5
+volume=2.110978
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A1_v1_rr1_Player.wav
+pitch_keycenter=45
+lokey=44
+hikey=46
+tune=5
+volume=29.975783
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A1_v2_rr1_Player.wav
+pitch_keycenter=45
+lokey=44
+hikey=46
+offset=8
+tune=3
+volume=17.146195
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A1_v3_rr1_Player.wav
+pitch_keycenter=45
+lokey=44
+hikey=46
+volume=5.607244
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A1_v4_rr1_Player.wav
+pitch_keycenter=45
+lokey=44
+hikey=46
+volume=1.249936
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C2_v1_rr1_Player.wav
+pitch_keycenter=48
+lokey=47
+hikey=49
+offset=13
+tune=8
+volume=30.304520
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C2_v2_rr1_Player.wav
+pitch_keycenter=48
+lokey=47
+hikey=49
+tune=1
+volume=19.134561
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C2_v3_rr1_Player.wav
+pitch_keycenter=48
+lokey=47
+hikey=49
+tune=-12
+volume=7.765060
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C2_v4_rr1_Player.wav
+pitch_keycenter=48
+lokey=47
+hikey=49
+tune=-10
+volume=6.263698
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D2_v1_rr1_Player.wav
+pitch_keycenter=50
+lokey=50
+hikey=51
+tune=5
+volume=34.680802
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D2_v2_rr1_Player.wav
+pitch_keycenter=50
+lokey=50
+hikey=51
+tune=3
+volume=19.862661
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D2_v3_rr1_Player.wav
+pitch_keycenter=50
+lokey=50
+hikey=51
+tune=-3
+volume=6.842527
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D2_v4_rr1_Player.wav
+pitch_keycenter=50
+lokey=50
+hikey=51
+tune=-4
+volume=3.361686
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_E2_v1_rr1_Player.wav
+pitch_keycenter=52
+lokey=52
+hikey=53
+tune=5
+volume=28.524274
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_E2_v2_rr1_Player.wav
+pitch_keycenter=52
+lokey=52
+hikey=53
+tune=5
+volume=18.878081
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_E2_v3_rr1_Player.wav
+pitch_keycenter=52
+lokey=52
+hikey=53
+volume=4.197586
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_E2_v4_rr1_Player.wav
+pitch_keycenter=52
+lokey=52
+hikey=53
+tune=-2
+volume=1.449978
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#2_v1_rr1_Player.wav
+pitch_keycenter=54
+lokey=54
+hikey=55
+tune=1
+volume=35.038937
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#2_v2_rr1_Player.wav
+pitch_keycenter=54
+lokey=54
+hikey=55
+tune=2
+volume=27.445576
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#2_v3_rr1_Player.wav
+pitch_keycenter=54
+lokey=54
+hikey=55
+tune=-4
+volume=5.651899
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#2_v4_rr1_Player.wav
+pitch_keycenter=54
+lokey=54
+hikey=55
+tune=-5
+volume=3.184964
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_G#2_v1_rr1_Player.wav
+pitch_keycenter=56
+lokey=56
+hikey=57
+volume=41.453473
+ampeg_decay=5
+ampeg_sustain=0
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_G#2_v2_rr1_Player.wav
+pitch_keycenter=56
+lokey=56
+hikey=57
+tune=3
+volume=29.339402
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_G#2_v3_rr1_Player.wav
+pitch_keycenter=56
+lokey=56
+hikey=57
+tune=-4
+volume=8.925344
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_G#2_v4_rr1_Player.wav
+pitch_keycenter=56
+lokey=56
+hikey=57
+tune=-5
+volume=5.684761
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A#2_v1_rr1_Player.wav
+pitch_keycenter=58
+lokey=58
+hikey=59
+tune=4
+volume=29.621039
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A#2_v2_rr1_Player.wav
+pitch_keycenter=58
+lokey=58
+hikey=59
+offset=9
+tune=5
+volume=19.402015
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A#2_v3_rr1_Player.wav
+pitch_keycenter=58
+lokey=58
+hikey=59
+tune=-1
+volume=5.817463
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A#2_v4_rr1_Player.wav
+pitch_keycenter=58
+lokey=58
+hikey=59
+tune=-7
+volume=2.571727
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C3_v1_rr1_Player.wav
+pitch_keycenter=60
+lokey=60
+hikey=61
+tune=4
+volume=33.589727
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C3_v2_rr1_Player.wav
+pitch_keycenter=60
+lokey=60
+hikey=61
+tune=4
+volume=19.087673
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C3_v3_rr1_Player.wav
+pitch_keycenter=60
+lokey=60
+hikey=61
+offset=500
+volume=7.169652
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C3_v4_rr1_Player.wav
+pitch_keycenter=60
+lokey=60
+hikey=61
+tune=-3
+offset=500
+volume=2.633245
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D3_v1_rr1_Player.wav
+pitch_keycenter=62
+lokey=62
+hikey=63
+offset=31
+tune=7
+volume=43.216074
+ampeg_decay=5
+ampeg_sustain=0
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D3_v2_rr1_Player.wav
+pitch_keycenter=62
+lokey=62
+hikey=63
+tune=7
+volume=27.301090
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D3_v3_rr1_Player.wav
+pitch_keycenter=62
+lokey=62
+hikey=63
+volume=11.104181
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D3_v4_rr1_Player.wav
+pitch_keycenter=62
+lokey=62
+hikey=63
+tune=-2
+volume=7.795120
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_E3_v1_rr1_Player.wav
+pitch_keycenter=64
+lokey=64
+hikey=65
+tune=-1
+volume=39.163587
+ampeg_decay=5
+ampeg_sustain=0
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_E3_v2_rr1_Player.wav
+pitch_keycenter=64
+lokey=64
+hikey=65
+tune=7
+volume=20.728454
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_E3_v3_rr1_Player.wav
+pitch_keycenter=64
+lokey=64
+hikey=65
+tune=-3
+volume=4.541133
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_E3_v4_rr1_Player.wav
+pitch_keycenter=64
+lokey=64
+hikey=65
+tune=-3
+volume=1.966780
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#3_v1_rr1_Player.wav
+pitch_keycenter=66
+lokey=66
+hikey=67
+tune=4
+volume=40.668921
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#3_v2_rr1_Player.wav
+pitch_keycenter=66
+lokey=66
+hikey=67
+tune=6
+volume=20.919230
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#3_v3_rr1_Player.wav
+pitch_keycenter=66
+lokey=66
+hikey=67
+tune=1
+volume=5.780529
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#3_v4_rr1_Player.wav
+pitch_keycenter=66
+lokey=66
+hikey=67
+tune=-2
+volume=0.093811
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_G#3_v1_rr1_Player.wav
+pitch_keycenter=68
+lokey=68
+hikey=69
+offset=21
+tune=3
+volume=33.830173
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_G#3_v2_rr1_Player.wav
+pitch_keycenter=68
+lokey=68
+hikey=69
+tune=3
+volume=23.402498
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_G#3_v3_rr1_Player.wav
+pitch_keycenter=68
+lokey=68
+hikey=69
+tune=-2
+volume=7.708984
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_G#3_v4_rr1_Player.wav
+pitch_keycenter=68
+lokey=68
+hikey=69
+tune=-5
+volume=2.494582
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A#3_v1_rr1_Player.wav
+pitch_keycenter=70
+lokey=70
+hikey=71
+tune=18
+volume=41.172068
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A#3_v2_rr1_Player.wav
+pitch_keycenter=70
+lokey=70
+hikey=71
+tune=8
+volume=30.115845
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A#3_v3_rr1_Player.wav
+pitch_keycenter=70
+lokey=70
+hikey=71                                                
+tune=-8
+offset=500
+volume=11.869994
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A#3_v4_rr1_Player.wav
+pitch_keycenter=70
+lokey=70
+hikey=71
+tune=-13
+offset=500
+volume=6.610338
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C4_v1_rr1_Player.wav
+pitch_keycenter=72
+lokey=72
+hikey=73
+tune=4
+volume=36.000888
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C4_v2_rr1_Player.wav
+pitch_keycenter=72
+lokey=72
+hikey=73
+tune=4
+volume=19.829627
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C4_v3_rr1_Player.wav
+pitch_keycenter=72
+lokey=72
+hikey=73
+tune=1
+volume=8.582979
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C4_v4_rr1_Player.wav
+pitch_keycenter=72
+lokey=72
+hikey=73
+tune=-2
+volume=1.525515
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D4_v1_rr1_Player.wav
+pitch_keycenter=74
+lokey=74
+hikey=75
+tune=1
+volume=42.493573
+ampeg_decay=5
+ampeg_sustain=0
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D4_v2_rr1_Player.wav
+pitch_keycenter=74
+lokey=74
+hikey=75
+tune=1
+volume=16.545741
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D4_v3_rr1_Player.wav
+pitch_keycenter=74
+lokey=74
+hikey=75
+tune=-3
+volume=6.115904
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D4_v4_rr1_Player.wav
+pitch_keycenter=74
+lokey=74
+hikey=75
+tune=-8
+volume=-3.131871
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_E4_v1_rr1_Player.wav
+pitch_keycenter=76
+lokey=76
+hikey=77
+tune=3
+volume=39.034138
+ampeg_decay=5
+ampeg_sustain=0
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_E4_v2_rr1_Player.wav
+pitch_keycenter=76
+lokey=76
+hikey=77
+tune=3
+volume=25.411220
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_E4_v3_rr1_Player.wav
+pitch_keycenter=76
+lokey=76
+hikey=77
+tune=-1
+volume=8.725338
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_E4_v4_rr1_Player.wav
+pitch_keycenter=76
+lokey=76
+hikey=77
+tune=-6
+volume=2.667019
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#4_v1_rr1_Player.wav
+pitch_keycenter=78
+lokey=78
+hikey=79
+offset=15
+tune=13
+volume=41.583157
+ampeg_decay=5
+ampeg_sustain=0
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#4_v2_rr1_Player.wav
+pitch_keycenter=78
+lokey=78
+hikey=79
+tune=12
+volume=30.756354
+ampeg_decay=5
+ampeg_sustain=0
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#4_v3_rr1_Player.wav
+pitch_keycenter=78
+lokey=78
+hikey=79
+tune=-2
+volume=8.227426
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#4_v4_rr1_Player.wav
+pitch_keycenter=78
+lokey=78
+hikey=79
+tune=-5
+volume=1.664776
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_G#4_v1_rr1_Player.wav
+pitch_keycenter=80
+lokey=80
+hikey=81
+tune=0
+volume=45.801755
+ampeg_decay=5
+ampeg_sustain=0
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_G#4_v2_rr1_Player.wav
+pitch_keycenter=80
+lokey=80
+hikey=81
+tune=-1
+volume=37.365578
+ampeg_decay=5
+ampeg_sustain=0
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_G#4_v3_rr1_Player.wav
+pitch_keycenter=80
+lokey=80
+hikey=81
+tune=-13
+volume=13.501400
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_G#4_v4_rr1_Player.wav
+pitch_keycenter=80
+lokey=80
+hikey=81
+tune=-18
+volume=3.982820
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A#4_v1_rr1_Player.wav
+pitch_keycenter=82
+lokey=82
+hikey=82
+tune=-1
+volume=36.397443
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A#4_v2_rr1_Player.wav
+pitch_keycenter=82
+lokey=82
+hikey=82
+tune=-1
+volume=26.459403
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A#4_v3_rr1_Player.wav
+pitch_keycenter=82
+lokey=82
+hikey=82
+tune=-2
+volume=8.407723
+
+<region>
+lovel=0
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_B4_v3_rr1_Player.wav
+pitch_keycenter=83
+lokey=83
+hikey=83
+tune=-10
+volume=11.281442
+
+//<region>
+//lovel=84
+//hivel=127
+//sample=Grand Piano, Kawai/Sustains/GPiano_sus_B4_v4_rr1_Player.wav
+//pitch_keycenter=83
+//lokey=83
+//hikey=83
+//tune=-10
+//volume=3.293816
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C5_v1_rr1_Player.wav
+pitch_keycenter=84
+lokey=84
+hikey=85
+volume=31.884073
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C5_v2_rr1_Player.wav
+pitch_keycenter=84
+lokey=84
+hikey=85
+tune=1
+volume=15.687743
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C5_v3_rr1_Player.wav
+pitch_keycenter=84
+lokey=84
+hikey=85
+tune=-1
+volume=2.862177
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C5_v4_rr1_Player.wav
+pitch_keycenter=84
+lokey=84
+hikey=85
+tune=-2
+volume=-0.173042
+
+//<region>
+//lovel=0
+//hivel=54
+//sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#5_v1_rr1_Player.wav
+//pitch_keycenter=87
+//lokey=86
+//hikey=88
+//tune=0
+//volume=53.338040
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#5_v2_rr1_Player.wav
+pitch_keycenter=87
+lokey=86
+hikey=88
+tune=-9
+volume=23.993893
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#5_v3_rr1_Player.wav
+pitch_keycenter=87
+lokey=86
+hikey=88
+tune=-12
+volume=12.184266
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#5_v4_rr1_Player.wav
+pitch_keycenter=87
+lokey=86
+hikey=88
+tune=-19
+volume=6.222417
+
+//<region>
+//lovel=0
+//hivel=54
+//sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#5_v1_rr1_Player.wav
+//pitch_keycenter=90
+//lokey=89
+//hikey=91
+//tune=15
+//volume=50.830613
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#5_v2_rr1_Player.wav
+pitch_keycenter=90
+lokey=89
+hikey=91
+volume=23.015977
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#5_v3_rr1_Player.wav
+pitch_keycenter=90
+lokey=89
+hikey=91
+tune=-4
+volume=7.068024
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#5_v4_rr1_Player.wav
+pitch_keycenter=90
+lokey=89
+hikey=91
+tune=-7
+volume=1.142036
+
+//<region>
+//lovel=0
+//hivel=54
+//sample=Grand Piano, Kawai/Sustains/GPiano_sus_A5_v1_rr1_Player.wav
+//pitch_keycenter=93
+//lokey=92
+//hikey=94
+//volume=48.187364
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A5_v2_rr1_Player.wav
+pitch_keycenter=93
+lokey=92
+hikey=94
+tune=3
+volume=22.561737
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A5_v3_rr1_Player.wav
+pitch_keycenter=93
+lokey=92
+hikey=94
+tune=2
+volume=9.216527
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A5_v4_rr1_Player.wav
+pitch_keycenter=93
+lokey=92
+hikey=94
+tune=-1
+volume=5.809594
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C6_v1_rr1_Player.wav
+pitch_keycenter=96
+lokey=95
+hikey=97
+volume=36.458918
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C6_v2_rr1_Player.wav
+pitch_keycenter=96
+lokey=95
+hikey=97
+tune=1
+volume=14.403192
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C6_v3_rr1_Player.wav
+pitch_keycenter=96
+lokey=95
+hikey=97
+tune=1
+volume=2.975836
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C6_v4_rr1_Player.wav
+pitch_keycenter=96
+lokey=95
+hikey=97
+volume=1.656427
+
+//<region>
+//lovel=0
+//hivel=54
+//sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#6_v1_rr1_Player.wav
+//pitch_keycenter=99
+//lokey=98
+//hikey=100
+//volume=45.223984
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#6_v2_rr1_Player.wav
+pitch_keycenter=99
+lokey=98
+hikey=100
+tune=-3
+volume=20.127586
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#6_v3_rr1_Player.wav
+pitch_keycenter=99
+lokey=98
+hikey=100
+tune=2
+volume=9.129479
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_D#6_v4_rr1_Player.wav
+pitch_keycenter=99
+lokey=98
+hikey=100
+tune=2
+volume=5.090563
+
+<group>
+trigger=attack
+ampeg_attack=0.004000
+ampeg_release=10.000000
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#6_v3_rr1_Player.wav
+pitch_keycenter=102
+lokey=101
+hikey=102
+tune=1
+volume=10.074102
+
+<region>
+lovel=84
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_F#6_v4_rr1_Player.wav
+pitch_keycenter=102
+lokey=101
+hikey=102
+volume=6.443251
+
+//<region>
+//lovel=0
+//hivel=83
+//sample=Grand Piano, Kawai/Sustains/GPiano_sus_G6_v1_rr1_Player.wav
+//pitch_keycenter=103
+//lokey=103
+//hikey=104
+//volume=41.907929
+
+<region>
+lovel=0
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_G6_v2_rr1_Player.wav
+pitch_keycenter=103
+lokey=103
+hikey=104
+volume=18.516852
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A6_v1_rr1_Player.wav
+pitch_keycenter=105
+lokey=105
+hikey=106
+volume=40.569762
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A6_v2_rr1_Player.wav
+pitch_keycenter=105
+lokey=105
+hikey=106
+volume=17.243853
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A6_v3_rr1_Player.wav
+pitch_keycenter=105
+lokey=105
+hikey=106
+volume=7.157161
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_A6_v4_rr1_Player.wav
+pitch_keycenter=105
+lokey=105
+hikey=106
+tune=-1
+volume=4.909673
+
+<region>
+lovel=0
+hivel=54
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C7_v1_rr1_Player.wav
+pitch_keycenter=108
+lokey=107
+hikey=109
+volume=28.696639
+
+<region>
+lovel=55
+hivel=83
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C7_v2_rr1_Player.wav
+pitch_keycenter=108
+lokey=107
+hikey=109
+volume=21.385058
+
+<region>
+lovel=84
+hivel=106
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C7_v3_rr1_Player.wav
+pitch_keycenter=108
+lokey=107
+hikey=109
+volume=5.324970
+
+<region>
+lovel=107
+hivel=127
+sample=Grand Piano, Kawai/Sustains/GPiano_sus_C7_v4_rr1_Player.wav
+pitch_keycenter=108
+lokey=107
+hikey=109
+tune=6
+volume=1.917036
+
+<group>
+trigger=release
+ampeg_attack=0.000000
+rt_decay=4
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A#-1_v2_rr1_Player.wav
+pitch_keycenter=22
+lokey=21
+hikey=23
+volume=5.789155
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A#-1_v3_rr1_Player.wav
+pitch_keycenter=22
+lokey=21
+hikey=23
+tune=72
+volume=-4.585154
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A#-1_v4_rr1_Player.wav
+pitch_keycenter=22
+lokey=21
+hikey=23
+tune=68
+volume=0.880717
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C0_v2_rr1_Player.wav
+pitch_keycenter=24
+lokey=24
+hikey=25
+tune=-26
+volume=9.389691
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C0_v3_rr1_Player.wav
+pitch_keycenter=24
+lokey=24
+hikey=25
+tune=-13
+volume=-5.841294
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C0_v4_rr1_Player.wav
+pitch_keycenter=24
+lokey=24
+hikey=25
+tune=-18
+volume=2.597919
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D#0_v2_rr1_Player.wav
+pitch_keycenter=27
+lokey=26
+hikey=28
+tune=-77
+volume=9.300019
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D#0_v3_rr1_Player.wav
+pitch_keycenter=27
+lokey=26
+hikey=28
+tune=-22
+volume=0.085036
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D#0_v4_rr1_Player.wav
+pitch_keycenter=27
+lokey=26
+hikey=28
+tune=-21
+volume=-6.080903
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#0_v2_rr1_Player.wav
+pitch_keycenter=30
+lokey=29
+hikey=31
+tune=-80
+volume=12.371708
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#0_v3_rr1_Player.wav
+pitch_keycenter=30
+lokey=29
+hikey=31
+tune=-11
+volume=-1
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#0_v4_rr1_Player.wav
+pitch_keycenter=30
+lokey=29
+hikey=31
+tune=-8
+volume=-6.481525
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A0_v2_rr1_Player.wav
+pitch_keycenter=33
+lokey=32
+hikey=34
+tune=-23
+volume=12.592750
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A0_v3_rr1_Player.wav
+pitch_keycenter=33
+lokey=32
+hikey=34
+tune=-21
+volume=-7.048890
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A0_v4_rr1_Player.wav
+pitch_keycenter=33
+lokey=32
+hikey=34
+tune=-10
+volume=-6.872536
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C1_v2_rr1_Player.wav
+pitch_keycenter=36
+lokey=35
+hikey=37
+volume=12.267070
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C1_v3_rr1_Player.wav
+pitch_keycenter=36
+lokey=35
+hikey=37
+tune=-20
+volume=0.554564
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C1_v4_rr1_Player.wav
+pitch_keycenter=36
+lokey=35
+hikey=37
+tune=-4
+volume=-3.909714
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D#1_v2_rr1_Player.wav
+pitch_keycenter=39
+lokey=38
+hikey=40
+tune=-3
+volume=12.755435
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D#1_v3_rr1_Player.wav
+pitch_keycenter=39
+lokey=38
+hikey=40
+volume=4.332663
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D#1_v4_rr1_Player.wav
+pitch_keycenter=39
+lokey=38
+hikey=40
+tune=5
+volume=-5.799450
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#1_v2_rr1_Player.wav
+pitch_keycenter=42
+lokey=41
+hikey=43
+tune=-2
+volume=6.252359
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#1_v3_rr1_Player.wav
+pitch_keycenter=42
+lokey=41
+hikey=43
+tune=-11
+volume=-4
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#1_v4_rr1_Player.wav
+pitch_keycenter=42
+lokey=41
+hikey=43
+tune=-6
+volume=-8.201443
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A1_v2_rr1_Player.wav
+pitch_keycenter=45
+lokey=44
+hikey=46
+tune=-10
+volume=10.294896
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A1_v3_rr1_Player.wav
+pitch_keycenter=45
+lokey=44
+hikey=46
+tune=-5
+volume=-1.324133
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A1_v4_rr1_Player.wav
+pitch_keycenter=45
+lokey=44
+hikey=46
+tune=-5
+volume=-9.063860
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C2_v2_rr1_Player.wav
+pitch_keycenter=48
+lokey=47
+hikey=49
+tune=-10
+volume=13.183509
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C2_v3_rr1_Player.wav
+pitch_keycenter=48
+lokey=47
+hikey=49
+tune=-9
+volume=3.871622
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C2_v4_rr1_Player.wav
+pitch_keycenter=48
+lokey=47
+hikey=49
+tune=-5
+volume=-6.398980
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D2_v2_rr1_Player.wav
+pitch_keycenter=50
+lokey=50
+hikey=50
+tune=-8
+volume=13.810426
+
+<region>
+lovel=84
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D2_v3_rr1_Player.wav
+pitch_keycenter=50
+lokey=50
+hikey=50
+tune=-5
+volume=1.203714
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D#2_v3_rr1_Player.wav
+pitch_keycenter=51
+lokey=51
+hikey=51
+tune=-14
+volume=0.959567
+
+<region>
+lovel=84
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D#2_v4_rr1_Player.wav
+pitch_keycenter=51
+lokey=51
+hikey=51
+tune=-8
+volume=-5.358626
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Releases/GPiano_rel_E2_v2_rr1_Player.wav
+pitch_keycenter=52
+lokey=52
+hikey=53
+tune=-6
+volume=3.471023
+
+<region>
+lovel=84
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_E2_v3_rr1_Player.wav
+pitch_keycenter=52
+lokey=52
+hikey=53
+tune=-5
+volume=-1
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#2_v2_rr1_Player.wav
+pitch_keycenter=54
+lokey=54
+hikey=55
+tune=-10
+volume=18.019375
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#2_v3_rr1_Player.wav
+pitch_keycenter=54
+lokey=54
+hikey=55
+volume=2.807412
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#2_v4_rr1_Player.wav
+pitch_keycenter=54
+lokey=54
+hikey=55
+tune=-1
+volume=-5
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Releases/GPiano_rel_G#2_v2_rr1_Player.wav
+pitch_keycenter=56
+lokey=56
+hikey=56
+tune=-7
+volume=18.106002
+
+<region>
+lovel=84
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_G#2_v3_rr1_Player.wav
+pitch_keycenter=56
+lokey=56
+hikey=56
+volume=0
+
+<region>
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A2_v4_rr1_Player.wav
+pitch_keycenter=57
+lokey=57
+hikey=57
+volume=-11.493906
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A#2_v2_rr1_Player.wav
+pitch_keycenter=58
+lokey=58
+hikey=59
+tune=-4
+volume=7.001435
+
+<region>
+lovel=84
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A#2_v3_rr1_Player.wav
+pitch_keycenter=58
+lokey=58
+hikey=59
+tune=-4
+volume=-1.534394
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C3_v2_rr1_Player.wav
+pitch_keycenter=60
+lokey=60
+hikey=61
+tune=-11
+volume=10.620343
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C3_v3_rr1_Player.wav
+pitch_keycenter=60
+lokey=60
+hikey=61
+tune=-4
+volume=-3
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C3_v4_rr1_Player.wav
+pitch_keycenter=60
+lokey=60
+hikey=61
+tune=-3
+volume=-4
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D3_v2_rr1_Player.wav
+pitch_keycenter=62
+lokey=62
+hikey=62
+volume=5.891759
+
+<region>
+lovel=84
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D3_v3_rr1_Player.wav
+pitch_keycenter=62
+lokey=62
+hikey=62
+tune=-1
+volume=4.801559
+
+<region>
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D#3_v4_rr1_Player.wav
+pitch_keycenter=63
+lokey=63
+hikey=63
+tune=-2
+volume=1.533578
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Releases/GPiano_rel_E3_v2_rr1_Player.wav
+pitch_keycenter=64
+lokey=64
+hikey=65
+tune=4
+volume=8.645267
+
+<region>
+lovel=84
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_E3_v3_rr1_Player.wav
+pitch_keycenter=64
+lokey=64
+hikey=65
+tune=1
+volume=-1.843863
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#3_v2_rr1_Player.wav
+pitch_keycenter=66
+lokey=66
+hikey=67
+tune=-7
+volume=7.346029
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#3_v3_rr1_Player.wav
+pitch_keycenter=66
+lokey=66
+hikey=67
+tune=-3
+volume=-5.381328
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#3_v4_rr1_Player.wav
+pitch_keycenter=66
+lokey=66
+hikey=67
+tune=-11
+volume=-9.438571
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Releases/GPiano_rel_G#3_v2_rr1_Player.wav
+pitch_keycenter=68
+lokey=68
+hikey=68
+tune=-7
+volume=7.996301
+
+<region>
+lovel=84
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_G#3_v3_rr1_Player.wav
+pitch_keycenter=68
+lokey=68
+hikey=68
+tune=-4
+volume=-2.589577
+
+<region>
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A3_v4_rr1_Player.wav
+pitch_keycenter=69
+lokey=69
+hikey=69
+tune=-9
+volume=-3.195032
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A#3_v2_rr1_Player.wav
+pitch_keycenter=70
+lokey=70
+hikey=71
+tune=-7
+volume=6.475573
+
+<region>
+lovel=84
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A#3_v3_rr1_Player.wav
+pitch_keycenter=70
+lokey=70
+hikey=71
+tune=-7
+volume=3.091442
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C4_v2_rr1_Player.wav
+pitch_keycenter=72
+lokey=72
+hikey=73
+tune=-32
+volume=9.879569
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C4_v3_rr1_Player.wav
+pitch_keycenter=72
+lokey=72
+hikey=73
+tune=-24
+volume=3.708645
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C4_v4_rr1_Player.wav
+pitch_keycenter=72
+lokey=72
+hikey=73
+tune=-19
+volume=-3.573204
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D4_v2_rr1_Player.wav
+pitch_keycenter=74
+lokey=74
+hikey=75
+volume=7.210296
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D4_v3_rr1_Player.wav
+pitch_keycenter=74
+lokey=74
+hikey=75
+tune=-12
+volume=3.990273
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D4_v4_rr1_Player.wav
+pitch_keycenter=74
+lokey=74
+hikey=75
+tune=-5
+volume=-11.089923
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_E4_v2_rr1_Player.wav
+pitch_keycenter=76
+lokey=76
+hikey=77
+tune=-14
+volume=11.164955
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_E4_v3_rr1_Player.wav
+pitch_keycenter=76
+lokey=76
+hikey=77
+tune=-17
+volume=7.714479
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_E4_v4_rr1_Player.wav
+pitch_keycenter=76
+lokey=76
+hikey=77
+tune=-5
+volume=-3.043460
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#4_v2_rr1_Player.wav
+pitch_keycenter=78
+lokey=78
+hikey=79
+offset=8
+volume=4.707192
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#4_v3_rr1_Player.wav
+pitch_keycenter=78
+lokey=78
+hikey=79
+tune=-7
+volume=-1.552081
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_F#4_v4_rr1_Player.wav
+pitch_keycenter=78
+lokey=78
+hikey=79
+tune=-2
+volume=-4.669107
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_G#4_v2_rr1_Player.wav
+pitch_keycenter=80
+lokey=80
+hikey=81
+tune=-32
+volume=6.392286
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_G#4_v3_rr1_Player.wav
+pitch_keycenter=80
+lokey=80
+hikey=81
+tune=-6
+volume=0.987598
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_G#4_v4_rr1_Player.wav
+pitch_keycenter=80
+lokey=80
+hikey=81
+tune=-25
+volume=0.597484
+
+<region>
+sample=Grand Piano, Kawai/Releases/GPiano_rel_A#4_v2_rr1_Player.wav
+pitch_keycenter=82
+lokey=82
+hikey=82
+volume=6.039622
+
+<region>
+lovel=0
+hivel=83
+sample=Grand Piano, Kawai/Releases/GPiano_rel_B4_v3_rr1_Player.wav
+pitch_keycenter=83
+lokey=83
+hikey=83
+tune=-21
+volume=-5.651337
+
+<region>
+lovel=84
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_B4_v4_rr1_Player.wav
+pitch_keycenter=83
+lokey=83
+hikey=83
+volume=-6.944537
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C5_v2_rr1_Player.wav
+pitch_keycenter=84
+lokey=84
+hikey=85
+tune=-6
+volume=5.889919
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C5_v3_rr1_Player.wav
+pitch_keycenter=84
+lokey=84
+hikey=85
+tune=-12
+volume=9.202692
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_C5_v4_rr1_Player.wav
+pitch_keycenter=84
+lokey=84
+hikey=85
+tune=-1
+volume=-1.867749
+
+<region>
+lovel=0
+hivel=65
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D#5_v2_rr1_Player.wav
+pitch_keycenter=87
+lokey=86
+hikey=88
+volume=9.045777
+
+<region>
+lovel=66
+hivel=99
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D#5_v3_rr1_Player.wav
+pitch_keycenter=87
+lokey=86
+hikey=88
+tune=-15
+volume=6.846901
+
+<region>
+lovel=100
+hivel=127
+sample=Grand Piano, Kawai/Releases/GPiano_rel_D#5_v4_rr1_Player.wav
+pitch_keycenter=87
+lokey=86
+hikey=88
+tune=-9
+volume=-0.354477
+
