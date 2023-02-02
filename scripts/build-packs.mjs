@@ -8,36 +8,41 @@ const ALL = [];
 const BASE = "https://danigb.github.io/samples/vcsl";
 const SUMMARIES = [];
 
-const audioFolders = new Set();
+const wavFiles = new Set();
+const oggFiles = new Set();
+const m4aFiles = new Set();
 
 main();
 async function main() {
   for await (const path of getFiles("./" + PATH)) {
     if (path.endsWith(".sfz")) await processSfz(path);
-    if (path.endsWith(".wav")) addAudioFolder(path);
+    if (path.endsWith(".wav")) wavFiles.add(path.replace(".wav", ""));
+    if (path.endsWith(".ogg")) oggFiles.add(path.replace(".ogg", ""));
+    if (path.endsWith(".m4a")) m4aFiles.add(path.replace(".m4a", ""));
   }
 
   for (const data of ALL) {
     await convertSfz(data);
   }
-  for (const folder of audioFolders) {
-    console.log("FOLDER", folder);
-    const toMp4 =
-      'for i in *.wav; do ffmpeg -n -i "$i" -c:a aac -b:a 128k "${i%.*}.m4a"; done';
-    const toOgg =
-      'for i in *.wav; do ffmpeg -n -i "$i" -c:a libopus -b:a 64k "${i%.*}.ogg"; done';
-    await runCommand(folder, toMp4);
-    await runCommand(folder, toOgg);
+
+  for (const file of wavFiles) {
+    const folder = file.slice(0, file.lastIndexOf("/"));
+    if (!oggFiles.has(file)) {
+      const cmd = `ffmpeg -n -i "${file}.wav" -c:a libopus -b:a 64k "${file}.ogg"`;
+      console.log(">>> OGG", cmd);
+      await runCommand(folder, cmd);
+    }
+
+    if (!m4aFiles.has(file)) {
+      const cmd = `ffmpeg -n -i "${file}.wav" -c:a aac -b:a 128k "${file}.m4a"`;
+      console.log(">>> m4a", cmd);
+      await runCommand(folder, cmd);
+    }
   }
 
   const result = SUMMARIES.sort((a, b) => a.name.localeCompare(b.name));
 
-  console.log(JSON.stringify(result));
-}
-
-function addAudioFolder(fullPath) {
-  const path = fullPath.slice(0, fullPath.lastIndexOf("/"));
-  audioFolders.add(path);
+  await writeFile("./" + PATH + "instruments.json", JSON.stringify(result));
 }
 
 async function processSfz(fullPath) {
@@ -55,20 +60,18 @@ async function convertSfz({ fullPath, name, websfz, websfzUrl, folder }) {
   const sfz = parseSfz(data.toString());
   sfz.meta.name ??= name;
   sfz.meta.formats = ["ogg", "m4a"];
-  sfz.meta.baseUrl = `https://danigb.github.io/samples/vcsl/${folder}/${name
-    .split("-")[0]
-    .trim()}`;
+  sfz.meta.baseUrl = `https://danigb.github.io/samples/vcsl/${folder}/`;
   sfz.meta.websfzUrl = `https://danigb.github.io/samples/vcsl/${folder}/${websfz}`;
   sfz.meta.source = "https://github.com/sgossner/VCSL";
   sfz.meta.license = "Creative Commons 0";
 
-  for (const group of sfz.groups) {
-    for (const sample of group.regions) {
-      sample.sample = sample.sample
-        .replace(folder + "/", "")
-        .replace(".wav", "");
-    }
-  }
+  // for (const group of sfz.groups) {
+  //   for (const sample of group.regions) {
+  //     sample.sample = sample.sample
+  //       .replace(folder + "/", "")
+  //       .replace(".wav", "");
+  //   }
+  // }
   const dest = fullPath.split(PATH)[0] + "/" + PATH;
   const outFile = `${dest}${folder}/${websfz}`;
 

@@ -46,7 +46,7 @@ function Link(fileName) {
   return `<div>
       <pre>https://danigb.github.io/samples/${fileName}</pre>
   ${
-    isAudio(fileName)
+    false && isAudio(fileName)
       ? AudioTag(fileName)
       : `<a href="https://danigb.github.io/samples/${fileName}">${fileName}</a>`
   }
