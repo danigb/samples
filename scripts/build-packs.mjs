@@ -65,13 +65,11 @@ async function convertSfz({ fullPath, name, websfz, websfzUrl, folder }) {
   sfz.meta.source = "https://github.com/sgossner/VCSL";
   sfz.meta.license = "Creative Commons 0";
 
-  // for (const group of sfz.groups) {
-  //   for (const sample of group.regions) {
-  //     sample.sample = sample.sample
-  //       .replace(folder + "/", "")
-  //       .replace(".wav", "");
-  //   }
-  // }
+  for (const group of sfz.groups) {
+    for (const sample of group.regions) {
+      sample.sample = sample.sample.replace(".wav", "");
+    }
+  }
   const dest = fullPath.split(PATH)[0] + "/" + PATH;
   const outFile = `${dest}${folder}/${websfz}`;
 
