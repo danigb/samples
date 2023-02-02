@@ -7,25 +7,66 @@ function isHidden(path) {
   return path.includes("/.") || path.startsWith(".");
 }
 
-async function main() {
-  console.log(`
+function isAudio(path) {
+  return (
+    path.endsWith(".mp3") ||
+    path.endsWith(".m4a") ||
+    path.endsWith(".ogg") ||
+    path.endsWith(".wav")
+  );
+}
+
+function Document(body) {
+  return `
 <html>
     <head>
         <title>Samples</title>
     <body>
-   `);
-  for await (const path of getFiles("./audio")) {
-    const fileName = path.slice(path.indexOf("/audio") + 7);
-    if (!isHidden(fileName)) {
-      console.log(
-        `<a href="https://danigb.github.io/samples/${fileName}">${fileName}</a><br/>`
-      );
-    }
-  }
-  console.log(`
+      ${body.join("\n")}
     </body>
 </html>
-   `);
+  `;
+}
+
+function AudioTag(src) {
+  return `
+  <audio
+        controls
+        src="${src}">
+            <a href="${src}">
+                Download audio
+            </a>
+    </audio>
+  `
+    .replaceAll(/\s+/g, " ")
+    .trim();
+}
+
+function Link(fileName) {
+  return `<div>
+      <pre>https://danigb.github.io/samples/${fileName}</pre>
+  ${
+    isAudio(fileName)
+      ? AudioTag(fileName)
+      : `<a href="https://danigb.github.io/samples/${fileName}">${fileName}</a>`
+  }
+  </div>`;
+}
+
+async function main() {
+  const paths = (await getFilesArray("./audio")).map((path) =>
+    path.slice(path.indexOf("/audio") + 7)
+  );
+
+  console.log(Document(paths.map((path) => Link(path))));
+}
+
+async function getFilesArray(dir) {
+  const paths = [];
+  for await (const path of getFiles(dir)) {
+    if (!isHidden(path)) paths.push(path);
+  }
+  return paths.sort();
 }
 
 async function* getFiles(dir) {
