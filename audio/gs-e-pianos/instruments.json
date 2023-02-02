@@ -1,14 +1,1 @@
-[
-  {
-    "name": "CP80",
-    "websfzUrl": "https://danigb.github.io/samples/vcsl/CP80/cp80.websfz.json"
-  },
-  {
-    "name": "Pianet T",
-    "websfzUrl": "https://danigb.github.io/samples/vcsl/Pianet T/pianet-t.websfz.json"
-  },
-  {
-    "name": "Wurlitzer EP200",
-    "websfzUrl": "https://danigb.github.io/samples/vcsl/Wurlitzer EP200/wurlitzer-ep200.websfz.json"
-  }
-]
+[{"name":"CP80","websfzUrl":"https://danigb.github.io/samples/vcsl/CP80/cp80.websfz.json"},{"name":"Pianet T","websfzUrl":"https://danigb.github.io/samples/vcsl/Pianet T/pianet-t.websfz.json"},{"name":"Wurlitzer EP200","websfzUrl":"https://danigb.github.io/samples/vcsl/Wurlitzer EP200/wurlitzer-ep200.websfz.json"}]
