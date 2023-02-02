@@ -1,0 +1,170 @@
+// Generation Options: --unpitched --volume 10 --release 30
+
+<group>
+ampeg_attack=0.004000
+ampeg_release=30.000000
+
+<region>
+seq_length=2
+seq_position=1
+sample=Hi-Hat Cymbal/HiHat_Close_rr1_Mid.wav
+pitch_keycenter=44
+lokey=44
+hikey=44
+offset=327
+volume=8.918635
+
+<region>
+seq_length=2
+seq_position=2
+sample=Hi-Hat Cymbal/HiHat_Close_rr2_Mid.wav
+pitch_keycenter=44
+lokey=44
+hikey=44
+offset=985
+volume=11.235394
+
+<region>
+seq_length=2
+seq_position=1
+lovel=0
+hivel=54
+sample=Hi-Hat Cymbal/HiHat_HitC_v1_rr1_Mid.wav
+pitch_keycenter=42
+lokey=42
+hikey=42
+offset=144
+volume=36.400292
+
+<region>
+seq_length=2
+seq_position=2
+lovel=0
+hivel=54
+sample=Hi-Hat Cymbal/HiHat_HitC_v1_rr2_Mid.wav
+pitch_keycenter=42
+lokey=42
+hikey=42
+offset=124
+volume=35.805442
+
+<region>
+seq_length=2
+seq_position=1
+lovel=55
+hivel=83
+sample=Hi-Hat Cymbal/HiHat_HitC_v2_rr1_Mid.wav
+pitch_keycenter=42
+lokey=42
+hikey=42
+offset=150
+volume=28.626433
+
+<region>
+seq_length=2
+seq_position=2
+lovel=55
+hivel=83
+sample=Hi-Hat Cymbal/HiHat_HitC_v2_rr2_Mid.wav
+pitch_keycenter=42
+lokey=42
+hikey=42
+offset=169
+volume=28.024771
+
+<region>
+seq_length=2
+seq_position=1
+lovel=84
+hivel=106
+sample=Hi-Hat Cymbal/HiHat_HitC_v3_rr1_Mid.wav
+pitch_keycenter=42
+lokey=42
+hikey=42
+offset=166
+volume=10.055560
+
+<region>
+seq_length=2
+seq_position=2
+lovel=84
+hivel=106
+sample=Hi-Hat Cymbal/HiHat_HitC_v3_rr2_Mid.wav
+pitch_keycenter=42
+lokey=42
+hikey=42
+offset=165
+volume=15.576050
+
+<region>
+seq_length=2
+seq_position=1
+lovel=107
+hivel=127
+sample=Hi-Hat Cymbal/HiHat_HitC_v4_rr1_Mid.wav
+pitch_keycenter=42
+lokey=42
+hikey=42
+offset=185
+volume=5
+
+<region>
+seq_length=2
+seq_position=2
+lovel=107
+hivel=127
+sample=Hi-Hat Cymbal/HiHat_HitC_v4_rr2_Mid.wav
+pitch_keycenter=42
+lokey=42
+hikey=42
+offset=179
+volume=9
+
+<region>
+seq_length=2
+seq_position=1
+sample=Hi-Hat Cymbal/HiHat_HitLoose_rr1_Mid.wav
+pitch_keycenter=43
+lokey=43
+hikey=43
+offset=185
+volume=9.953157
+
+<region>
+seq_length=2
+seq_position=2
+sample=Hi-Hat Cymbal/HiHat_HitLoose_rr2_Mid.wav
+pitch_keycenter=43
+lokey=43
+hikey=43
+offset=179
+volume=10.047097
+
+<region>
+seq_length=2
+seq_position=1
+sample=Hi-Hat Cymbal/HiHat_HitO_rr1_Mid.wav
+pitch_keycenter=46
+lokey=46
+hikey=46
+offset=194
+volume=10.895746
+
+<region>
+seq_length=2
+seq_position=2
+sample=Hi-Hat Cymbal/HiHat_HitO_rr2_Mid.wav
+pitch_keycenter=46
+lokey=46
+hikey=46
+offset=198
+volume=9.188054
+
+<region>
+sample=Hi-Hat Cymbal/HiHat_HitOC_rr5_Mid.wav
+pitch_keycenter=45
+lokey=45
+hikey=45
+offset=190
+volume=10.000000
+
