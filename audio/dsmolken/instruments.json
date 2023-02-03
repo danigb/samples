@@ -1,1 +1,86 @@
-[{"name":"CP80","websfzUrl":"https://danigb.github.io/samples/gs-e-pianos/CP80/cp80.websfz.json"},{"name":"CP80","websfzUrl":"https://danigb.github.io/samples/gs-e-pianos/CP80/cp80.websfz.json"},{"name":"d_smolken_rubner_bass_arco","websfzUrl":"https://danigb.github.io/samples/dsmolken/double-bass/dsmolkenrubnerbassarco.websfz.json"},{"name":"d_smolken_rubner_bass_pizz","websfzUrl":"https://danigb.github.io/samples/dsmolken/double-bass/dsmolkenrubnerbasspizz.websfz.json"},{"name":"d_smolken_rubner_bass_switched","websfzUrl":"https://danigb.github.io/samples/dsmolken/double-bass/dsmolkenrubnerbassswitched.websfz.json"},{"name":"Pianet T","websfzUrl":"https://danigb.github.io/samples/gs-e-pianos/Pianet T/pianet-t.websfz.json"},{"name":"Pianet T","websfzUrl":"https://danigb.github.io/samples/gs-e-pianos/Pianet T/pianet-t.websfz.json"},{"name":"Wurlitzer EP200","websfzUrl":"https://danigb.github.io/samples/gs-e-pianos/Wurlitzer EP200/wurlitzer-ep200.websfz.json"},{"name":"Wurlitzer EP200","websfzUrl":"https://danigb.github.io/samples/gs-e-pianos/Wurlitzer EP200/wurlitzer-ep200.websfz.json"}]
+[
+  {
+    "name": "CP80",
+    "websfzUrl": "https://danigb.github.io/samples/gs-e-pianos/CP80/cp80.websfz.json"
+  },
+  {
+    "name": "CP80",
+    "websfzUrl": "https://danigb.github.io/samples/gs-e-pianos/CP80/cp80.websfz.json"
+  },
+  {
+    "name": "d_smolken_rubner_bass_arco",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/double-bass/dsmolkenrubnerbassarco.websfz.json"
+  },
+  {
+    "name": "d_smolken_rubner_bass_pizz",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/double-bass/dsmolkenrubnerbasspizz.websfz.json"
+  },
+  {
+    "name": "d_smolken_rubner_bass_switched",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/double-bass/dsmolkenrubnerbassswitched.websfz.json"
+  },
+  {
+    "name": "growlybass_angry",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/glowlybass/growlybassangry.websfz.json"
+  },
+  {
+    "name": "growlybass_clean",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/glowlybass/growlybassclean.websfz.json"
+  },
+  {
+    "name": "growlybass_dirty",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/glowlybass/growlybassdirty.websfz.json"
+  },
+  {
+    "name": "growlybass_excessive",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/glowlybass/growlybassexcessive.websfz.json"
+  },
+  {
+    "name": "growlybass_shifty",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/glowlybass/growlybassshifty.websfz.json"
+  },
+  {
+    "name": "growlybass_strange",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/glowlybass/growlybassstrange.websfz.json"
+  },
+  {
+    "name": "growlybass_vicious",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/glowlybass/growlybassvicious.websfz.json"
+  },
+  {
+    "name": "Pianet T",
+    "websfzUrl": "https://danigb.github.io/samples/gs-e-pianos/Pianet T/pianet-t.websfz.json"
+  },
+  {
+    "name": "Pianet T",
+    "websfzUrl": "https://danigb.github.io/samples/gs-e-pianos/Pianet T/pianet-t.websfz.json"
+  },
+  {
+    "name": "swagbass",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/swagbass/swagbass.websfz.json"
+  },
+  {
+    "name": "swagbass_clean",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/swagbass/swagbassclean.websfz.json"
+  },
+  {
+    "name": "swagbass_clean_things",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/swagbass/swagbasscleanthings.websfz.json"
+  },
+  {
+    "name": "swagbass_shiny",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/swagbass/swagbassshiny.websfz.json"
+  },
+  {
+    "name": "swagbass_shiny_things",
+    "websfzUrl": "https://danigb.github.io/samples/dsmolken/swagbass/swagbassshinythings.websfz.json"
+  },
+  {
+    "name": "Wurlitzer EP200",
+    "websfzUrl": "https://danigb.github.io/samples/gs-e-pianos/Wurlitzer EP200/wurlitzer-ep200.websfz.json"
+  },
+  {
+    "name": "Wurlitzer EP200",
+    "websfzUrl": "https://danigb.github.io/samples/gs-e-pianos/Wurlitzer EP200/wurlitzer-ep200.websfz.json"
+  }
+]

@@ -22,11 +22,6 @@ async function main() {
     },
     {
       instFolder: "dsmolken",
-      source: "https://github.com/sfzinstruments/dsmolken.double-bass",
-      license: "Creative Commons Zero v1.0 Universal",
-    },
-    {
-      instFolder: "karoyfer",
       source: "https://github.com/sfzinstruments",
       license: "Creative Commons Zero v1.0 Universal",
     },
