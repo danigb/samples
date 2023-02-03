@@ -97,7 +97,7 @@ async function convertSfz({ fullPath, name, websfz, pack, folder }, ctx) {
 
   for (const group of sfz.groups) {
     for (const sample of group.regions) {
-      sample.sample = sample.sample.replace(".flac", "");
+      sample.sample = sample.sample.replace(".flac", "").replace(".wav", "");
     }
   }
   const dest = fullPath.split(pack.instFolder)[0] + pack.instFolder;

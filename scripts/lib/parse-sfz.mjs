@@ -5,11 +5,7 @@ export function parseSfz(sfz) {
     groups: [],
   };
 
-  const lines = sfz
-    .toString()
-    .replace(/>/g, ">\n")
-    .split("\n")
-    .map((line) => line.trim());
+  const lines = processMacros(prepareLines(sfz));
 
   let group = undefined;
   let region = undefined;
@@ -94,4 +90,37 @@ function addItem(current, item, lineNum, line) {
       console.log("INVALID KEY VALUE", lineNum, item);
     }
   }
+}
+
+function processMacros(lines) {
+  const variables = {};
+
+  return lines.map((line) => {
+    if (line.startsWith("#define")) {
+      const data = line.slice(line.indexOf("$"));
+      const varName = data.slice(0, data.indexOf(" "));
+      const value = data.slice(varName.length);
+      console.log("#DEFINE ", varName, value);
+      variables[varName.trim()] = value.trim();
+      return "";
+    }
+
+    if (line.indexOf("$")) {
+      let modified = line;
+      Object.keys(variables).forEach((varName) => {
+        modified = modified.replace(varName, variables[varName]);
+      });
+      return modified;
+    } else {
+      return line;
+    }
+  });
+}
+
+function prepareLines(sfz) {
+  return sfz
+    .toString()
+    .replace(/>/g, ">\n")
+    .split("\n")
+    .map((line) => line.trim());
 }
