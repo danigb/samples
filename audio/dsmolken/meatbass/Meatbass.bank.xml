@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Key>5D86EB72FE629CE59A803AD2C13C53A04C660BD3F21C1E4CBFAE7BDCE7CC09156AEC95204195C9FB339943A5C0D657EBC544497D5AB4404850F319157EBA67AFB2EE022785DD1F4461AEB94E61C161E69F96AA530C8832CE2E5CC505650FDCBBCED27F1999614D3C198F01CDCC8A4FF061FA79EDF82699C5ED52749A40025FB1BE26BBECDD8F91A9A1E75A498F49CF2265754A6EAEEA3493661306966452D0FE5D050F9C6D883D6BB78D09529E67456D5F21F4FB8CC501F26F6FCCA6BCD85E7E7FAC057D7DD4AFE17284D3A808B0FF268DFEABF1DA5FB6A56B882B8A8304573F542CC73B660DE41BFE9E9730B5B6EA4444EFD086CC9EF563FFE09FEB042C9A5D</Key>
+<AriaBank id="2509" name="Meatbass" vendor="Karoryfer" product="Meatbass" version="1000" >
+
+	<Define name="$sample_dir" value="../Samples"/>
+	
+	<!-- branding for Aria Player and sforzando UIs -->
+	<AriaGUI path="GUI/aria_info.xml"  target="*ARIA_INFO" />	
+ 
+	<AriaProgram  name="01 - arco modwheel"		gui="GUI/01_arco_modwheel.xml">		<AriaElement  path="Programs/01_arco_modwheel.sfz"/>	</AriaProgram>
+	<AriaProgram  name="02 - arco 3 velocity"	gui="GUI/02_arco_3vel.xml">			<AriaElement  path="Programs/02_arco_3vel.sfz"/>		</AriaProgram>
+	<AriaProgram  name="03 - arco 5 velocity"	gui="GUI/03_arco_5vel.xml">			<AriaElement  path="Programs/03_arco_5vel.sfz"/>		</AriaProgram>
+	<AriaProgram  name="04 - pizzicato"			gui="GUI/04_pizz.xml">				<AriaElement  path="Programs/04_pizz.sfz"/>				</AriaProgram>		                                                               
+</AriaBank> 

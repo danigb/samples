@@ -1,0 +1,90 @@
+<control>
+label_cc7=Master Vol
+label_cc10=Master Pan
+label_cc91=Send
+label_cc100=Attack
+label_cc101=Hold  
+label_cc102=Decay  
+label_cc103=Sustain
+label_cc104=Release 
+label_cc107=Voices
+label_cc109=Portamento
+label_cc111=Vibrato Depth 
+label_cc112=Vibrato Speed
+label_cc113=Tremolo Depth
+label_cc114=Vibrato To EQ
+label_cc115=Vibrato Delay
+label_cc116=Vibrato Fade
+label_cc117=Humanize Rate
+label_cc118=Uneven Pitch
+label_cc119=Unsteady Vibrato
+label_cc122=Width
+label_cc123=Detune
+
+set_cc7=100
+set_cc10=64
+set_cc100=0
+set_cc101=0
+set_cc102=16
+set_cc103=127
+set_cc104=25
+set_cc112=25
+set_cc115=45
+set_cc116=45
+set_cc117=32
+set_cc122=64
+
+<global>
+amplitude_oncc7=100 //Master volume and pan
+pan=-100
+pan_oncc10=200
+
+ampeg_attack=0.001 //Basic AHDSR
+ampeg_sustain=0
+ampeg_release=0.001
+ampeg_decay=0.001
+ampeg_attack_oncc100=0.3 //The default but for the legato regions it's set to 0.5 in the mapping files
+ampeg_hold_oncc101=1 
+ampeg_decay_oncc102=6
+ampeg_sustain_oncc103=100
+ampeg_release_oncc104=2
+
+lfo01_pitch_oncc111=22 //Vibrato LFO
+lfo01_freq=2 //Any slower than this sounds really lousy
+lfo01_freq_oncc112=7 //About as fast as vibrato on double bass can go, faster is just silly
+lfo01_delay_oncc115=0.500
+lfo01_fade_oncc116=0.500
+lfo01_volume=0 //This LFO also does tremolo
+lfo01_volume_oncc113=2
+eq1_freq=2000 //Also can send this LFO to EQ, together with the tremolo it can simulate varying bow pressure while playing with heavy vibrato
+eq1_bw=2
+eq1_gain=0.001 //Needs to be non-zero, apparently?
+lfo01_eq1gain_oncc114=4 //Don't want this to sound too synthetic, so max amount is small
+lfo01_eq1freq_oncc114=1500
+
+lfo02_wave=1 //Second LFO to humanize stuff
+lfo02_phase=0
+lfo02_phase_oncc135=1 //This LFO has random phase
+lfo02_freq=0.01 //Basically no movement at very slow speeds, just randomization
+lfo02_freq_oncc117=1 //Max rate is not very high, so it doesn't sound too obvious
+lfo2_pitch_oncc118=6 //Slight pitch wobbliness
+lfo2_freq_lfo1_oncc119=3 //Affect the rate of the other LFO for unsteady vibrato
+
+eg06_sustain=1 //Pitch envelope setup for legato slides
+eg06_level0=-1
+eg06_time0=0
+eg06_pitch_oncc140=100
+eg06_time1=0
+eg06_level1=0 //When this is 0, the envelope really does nothing
+//eg06_time1_oncc109 needs to be set for the legato regions - but we don't want it on for all regions so the default is 0
+
+bend_up=1200
+bend_down=-1200
+
+#include "arco_basic_map.sfz"
+#include "arco_basic_legato_map.sfz"
+#include "arco_three_map.sfz"
+#include "arco_three_legato_map.sfz"
+#include "arco_six_map.sfz"
+#include "arco_six_legato_map.sfz"
+#include "arco_six_legato_first_map.sfz"
