@@ -18,6 +18,11 @@ async function main() {
       source: "https://github.com/sfzinstruments",
       license: "Creative Commons Zero v1.0 Universal",
     },
+    {
+      instFolder: "jlearman",
+      source: "https://github.com/sfzinstruments/jlearman.jRhodes3d",
+      license: "Creative Commons BY-NC",
+    },
   ];
 
   for (const pack of packs) {
