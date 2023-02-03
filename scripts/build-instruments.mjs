@@ -3,14 +3,6 @@ import { spawn } from "node:child_process";
 import { resolve } from "path";
 import { parseSfz } from "./lib/parse-sfz.mjs";
 
-const ALL = [];
-const BASE = "https://danigb.github.io/samples/gs-e-pianos";
-const SUMMARIES = [];
-
-const sourceFiles = new Set();
-const oggFiles = new Set();
-const m4aFiles = new Set();
-
 main();
 
 async function main() {
@@ -32,35 +24,49 @@ async function main() {
   }
 }
 
+function createContext() {
+  const ALL = [];
+  const BASE = "https://danigb.github.io/samples/gs-e-pianos";
+  const SUMMARIES = [];
+
+  const sourceFiles = new Set();
+  const oggFiles = new Set();
+  const m4aFiles = new Set();
+
+  return { ALL, BASE, SUMMARIES, sourceFiles, oggFiles, m4aFiles };
+}
+
 async function processPack(pack) {
+  const ctx = createContext();
   for await (const path of getFiles("./audio/" + pack.instFolder)) {
-    if (path.endsWith(".sfz")) await processSfz(path, pack);
-    if (path.endsWith(".wav") || path.endsWith(".flac")) sourceFiles.add(path);
-    if (path.endsWith(".ogg")) oggFiles.add(path.replace(".ogg", ""));
-    if (path.endsWith(".m4a")) m4aFiles.add(path.replace(".m4a", ""));
+    if (path.endsWith(".sfz")) await processSfz(path, pack, ctx);
+    if (path.endsWith(".wav") || path.endsWith(".flac"))
+      ctx.sourceFiles.add(path);
+    if (path.endsWith(".ogg")) ctx.oggFiles.add(path.replace(".ogg", ""));
+    if (path.endsWith(".m4a")) ctx.m4aFiles.add(path.replace(".m4a", ""));
   }
 
-  for (const data of ALL) {
-    await convertSfz(data);
+  for (const data of ctx.ALL) {
+    await convertSfz(data, ctx);
   }
 
-  for (const fileWithExtension of sourceFiles) {
+  for (const fileWithExtension of ctx.sourceFiles) {
     const file = fileWithExtension.slice(0, fileWithExtension.lastIndexOf("."));
     const folder = file.slice(0, file.lastIndexOf("/"));
-    if (!oggFiles.has(file)) {
+    if (!ctx.oggFiles.has(file)) {
       const cmd = `ffmpeg -n -i "${fileWithExtension}" -c:a libopus -b:a 64k "${file}.ogg"`;
       console.log(">>> OGG", cmd);
       await runCommand(folder, cmd);
     }
 
-    if (!m4aFiles.has(file)) {
+    if (!ctx.m4aFiles.has(file)) {
       const cmd = `ffmpeg -n -i "${fileWithExtension}" -c:a aac -b:a 128k "${file}.m4a"`;
       console.log(">>> m4a", cmd);
       await runCommand(folder, cmd);
     }
   }
 
-  const result = SUMMARIES.sort((a, b) => a.name.localeCompare(b.name));
+  const result = ctx.SUMMARIES.sort((a, b) => a.name.localeCompare(b.name));
 
   await writeFile(
     "./audio/" + pack.instFolder + "/instruments.json",
@@ -68,18 +74,18 @@ async function processPack(pack) {
   );
 }
 
-async function processSfz(fullPath, pack) {
+async function processSfz(fullPath, pack, ctx) {
   const path = fullPath.split(`/audio/${pack.instFolder}/`)[1];
   console.log(">>>", fullPath, path);
   const [folder, sfz] = path.split("/");
   const name = sfz.replace(".sfz", "");
   const websfz = slugify(name) + ".websfz.json";
-  const websfzUrl = BASE + "/" + folder + "/" + websfz;
+  const websfzUrl = ctx.BASE + "/" + folder + "/" + websfz;
 
-  ALL.push({ fullPath, path, folder, name, websfz, websfzUrl, pack });
+  ctx.ALL.push({ fullPath, path, folder, name, websfz, websfzUrl, pack });
 }
 
-async function convertSfz({ fullPath, name, websfz, pack, folder }) {
+async function convertSfz({ fullPath, name, websfz, pack, folder }, ctx) {
   const data = await readFile(fullPath);
   const sfz = parseSfz(data.toString());
   sfz.meta.name ??= name;
@@ -99,7 +105,7 @@ async function convertSfz({ fullPath, name, websfz, pack, folder }) {
 
   await writeFile(outFile, JSON.stringify(sfz));
 
-  SUMMARIES.push({
+  ctx.SUMMARIES.push({
     name: sfz.meta.name,
     websfzUrl: sfz.meta.websfzUrl,
   });
