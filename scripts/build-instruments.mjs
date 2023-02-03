@@ -7,24 +7,35 @@ const ALL = [];
 const BASE = "https://danigb.github.io/samples/gs-e-pianos";
 const SUMMARIES = [];
 
-const flacFiles = new Set();
+const sourceFiles = new Set();
 const oggFiles = new Set();
 const m4aFiles = new Set();
 
-const packs = [
-  {
-    instFolder: "gs-e-pianos",
-    source: "https://github.com/sfzinstruments/GregSullivan.E-Pianos",
-    license: "Creative Commons Attribution 3.0 Unported License",
-  },
-];
+main();
 
-main(packs[0]);
+async function main() {
+  const packs = [
+    {
+      instFolder: "gs-e-pianos",
+      source: "https://github.com/sfzinstruments/GregSullivan.E-Pianos",
+      license: "Creative Commons Attribution 3.0 Unported License",
+    },
+    {
+      instFolder: "dsmolken",
+      source: "https://github.com/sfzinstruments/dsmolken.double-bass",
+      license: "Creative Commons Zero v1.0 Universal",
+    },
+  ];
 
-async function main(pack) {
+  for (const pack of packs) {
+    await processPack(pack);
+  }
+}
+
+async function processPack(pack) {
   for await (const path of getFiles("./audio/" + pack.instFolder)) {
     if (path.endsWith(".sfz")) await processSfz(path, pack);
-    if (path.endsWith(".flac")) flacFiles.add(path.replace(".flac", ""));
+    if (path.endsWith(".wav") || path.endsWith(".flac")) sourceFiles.add(path);
     if (path.endsWith(".ogg")) oggFiles.add(path.replace(".ogg", ""));
     if (path.endsWith(".m4a")) m4aFiles.add(path.replace(".m4a", ""));
   }
@@ -33,16 +44,17 @@ async function main(pack) {
     await convertSfz(data);
   }
 
-  for (const file of flacFiles) {
+  for (const fileWithExtension of sourceFiles) {
+    const file = fileWithExtension.slice(0, fileWithExtension.lastIndexOf("."));
     const folder = file.slice(0, file.lastIndexOf("/"));
     if (!oggFiles.has(file)) {
-      const cmd = `ffmpeg -n -i "${file}.flac" -c:a libopus -b:a 64k "${file}.ogg"`;
+      const cmd = `ffmpeg -n -i "${fileWithExtension}" -c:a libopus -b:a 64k "${file}.ogg"`;
       console.log(">>> OGG", cmd);
       await runCommand(folder, cmd);
     }
 
     if (!m4aFiles.has(file)) {
-      const cmd = `ffmpeg -n -i "${file}.flac" -c:a aac -b:a 128k "${file}.m4a"`;
+      const cmd = `ffmpeg -n -i "${fileWithExtension}" -c:a aac -b:a 128k "${file}.m4a"`;
       console.log(">>> m4a", cmd);
       await runCommand(folder, cmd);
     }
