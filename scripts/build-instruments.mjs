@@ -1,3 +1,4 @@
+import { readFileSync } from "fs";
 import { readdir, readFile, writeFile } from "fs/promises";
 import { spawn } from "node:child_process";
 import { resolve } from "path";
@@ -39,7 +40,7 @@ function createContext() {
 async function processPack(pack) {
   const ctx = createContext();
   for await (const path of getFiles("./audio/" + pack.instFolder)) {
-    if (path.endsWith(".sfz")) await processSfz(path, pack, ctx);
+    if (path.endsWith(".sfz")) await addSfzPath(path, pack, ctx);
     if (path.endsWith(".wav") || path.endsWith(".flac"))
       ctx.sourceFiles.add(path);
     if (path.endsWith(".ogg")) ctx.oggFiles.add(path.replace(".ogg", ""));
@@ -74,7 +75,7 @@ async function processPack(pack) {
   );
 }
 
-async function processSfz(fullPath, pack, ctx) {
+async function addSfzPath(fullPath, pack, ctx) {
   const path = fullPath.split(`/audio/${pack.instFolder}/`)[1];
   console.log(">>>", fullPath, path);
   const [folder, sfz] = path.split("/");
@@ -86,8 +87,11 @@ async function processSfz(fullPath, pack, ctx) {
 }
 
 async function convertSfz({ fullPath, name, websfz, pack, folder }, ctx) {
+  const sfzPath = fullPath.slice(0, fullPath.lastIndexOf("/") + 1);
   const data = await readFile(fullPath);
-  const sfz = parseSfz(data.toString());
+  const sfz = parseSfz(data.toString(), (fileName) =>
+    readFileSync(sfzPath + fileName).toString()
+  );
   sfz.meta.name ??= name;
   sfz.meta.formats = ["ogg", "m4a"];
   sfz.meta.baseUrl = `https://danigb.github.io/samples/${pack.instFolder}/${folder}/`;
@@ -97,7 +101,10 @@ async function convertSfz({ fullPath, name, websfz, pack, folder }, ctx) {
 
   for (const group of sfz.groups) {
     for (const sample of group.regions) {
-      sample.sample = sample.sample.replace(".flac", "").replace(".wav", "");
+      sample.sample = sample.sample
+        .replace(".flac", "")
+        .replace(".wav", "")
+        .replaceAll("\\", "/");
     }
   }
   const dest = fullPath.split(pack.instFolder)[0] + pack.instFolder;

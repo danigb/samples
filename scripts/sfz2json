@@ -14,8 +14,12 @@ async function main() {
 
   const [inputPath, outputPath] = args;
 
+  const sfzPath = inputPath.slice(0, inputPath.lastIndexOf("/") + 1);
+  console.log(inputPath, sfzPath);
   const sfz = readFileSync(inputPath).toString();
-  const json = parseSfz(sfz);
+  const json = parseSfz(sfz, (fileName) =>
+    readFileSync(sfzPath + fileName).toString()
+  );
   if (outputPath) {
     writeFileSync(outputPath, JSON.stringify(json, null, 2));
   } else {

@@ -3,3 +3,6 @@ sources
 .DS_Store
 *.wav
 *.flac
+*.png
+*.xml
+*.pdf

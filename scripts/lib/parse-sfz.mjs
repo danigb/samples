@@ -1,11 +1,11 @@
-export function parseSfz(sfz) {
+export function parseSfz(sfz, loadSfz = () => "") {
   const output = {
     meta: {},
     global: {},
     groups: [],
   };
 
-  const lines = processMacros(prepareLines(sfz));
+  const lines = processMacros(prepareLines(sfz), loadSfz);
 
   let group = undefined;
   let region = undefined;
@@ -92,17 +92,24 @@ function addItem(current, item, lineNum, line) {
   }
 }
 
-function processMacros(lines) {
+function processMacros(lines, loadSfz) {
   const variables = {};
 
-  return lines.map((line) => {
+  const result = [];
+
+  lines.forEach((line) => {
     if (line.startsWith("#define")) {
       const data = line.slice(line.indexOf("$"));
       const varName = data.slice(0, data.indexOf(" "));
       const value = data.slice(varName.length);
       console.log("#DEFINE ", varName, value);
       variables[varName.trim()] = value.trim();
-      return "";
+      return;
+    } else if (line.startsWith("#include")) {
+      const fileName = line.slice(line.indexOf('"')).replaceAll(/"/g, "");
+      const lines = processMacros(prepareLines(loadSfz(fileName)), loadSfz);
+      lines.forEach((line) => result.push(line));
+      return;
     }
 
     if (line.indexOf("$")) {
@@ -110,11 +117,12 @@ function processMacros(lines) {
       Object.keys(variables).forEach((varName) => {
         modified = modified.replace(varName, variables[varName]);
       });
-      return modified;
+      result.push(modified);
     } else {
-      return line;
+      result.push(line);
     }
   });
+  return result;
 }
 
 function prepareLines(sfz) {
