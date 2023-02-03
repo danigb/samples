@@ -25,6 +25,11 @@ async function main() {
       source: "https://github.com/sfzinstruments/dsmolken.double-bass",
       license: "Creative Commons Zero v1.0 Universal",
     },
+    {
+      instFolder: "karoyfer",
+      source: "https://github.com/sfzinstruments",
+      license: "Creative Commons Zero v1.0 Universal",
+    },
   ];
 
   for (const pack of packs) {

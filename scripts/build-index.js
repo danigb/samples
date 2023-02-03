@@ -1,5 +1,5 @@
 const { resolve } = require("path");
-const { readdir } = require("fs").promises;
+const { readdir, writeFile } = require("fs").promises;
 
 main();
 
@@ -58,7 +58,17 @@ async function main() {
     path.slice(path.indexOf("/audio") + 7)
   );
 
-  console.log(Document(paths.map((path) => Link(path))));
+  const json = paths
+    .filter((path) => path.endsWith(".json"))
+    .map((path) => Link(path));
+  const audio = paths
+    .filter((path) => path.endsWith(".ogg") || path.endsWith(".m4a"))
+    .map((path) => Link(path));
+  const sfz = paths
+    .filter((path) => path.endsWith(".sfz"))
+    .map((path) => Link(path));
+
+  await writeFile("./audio/index.html", Document([...json, ...sfz, ...audio]));
 }
 
 async function getFilesArray(dir) {
