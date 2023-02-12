@@ -8,7 +8,7 @@ See full list of samples here: https://danigb.github.io/samples/
 
 This repository contains:
 
-- `drum-machine`: A collection of drum machine samples from several sources.
+- `drum-machines/`: A collection of drum machine samples from several sources. See folders for licenses and sources.
 - `dsmolken/`: A collection of bass samples played and mapped by D. Smolken. License: [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) Source: https://github.com/sfzinstruments
 - `gs-e-pianos/` Greg Sullivan's E-Pianos. License: [CC 3.0 Unported](http://creativecommons.org/licenses/by/3.0/) Source: http://www.sullivang.net/
 - `jlearman/` J. Learman Rhodes: 1977 Rhodes Mark I Stage 73 electric piano. License: [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) Source: https://github.com/sfzinstruments/jlearman.jRhodes3d
