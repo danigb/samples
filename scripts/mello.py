@@ -35,7 +35,7 @@ def main(folder_path):
         if not os.path.exists(m4a_path):
             convert_with_ffmpeg(original_path, m4a_path, "aac")
 
-        # os.remove(original_path)
+        os.remove(original_path)
 
     ogg_files = [f for f in os.listdir(folder_path) if f.endswith('.ogg')]
     samples = []
