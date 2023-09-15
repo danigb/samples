@@ -6,3 +6,5 @@ sources
 *.png
 *.xml
 *.pdf
+/tmp
+/repos
