@@ -14,6 +14,7 @@ def convert_with_ffmpeg(input_file, output_file, codec):
 
 
 def main(folder_path):
+    print(f"Processing folder: {folder_path}")
     # Gather all WAV files
     wav_files = [f for f in os.listdir(folder_path) if f.endswith('.wav')]
 
@@ -34,11 +35,20 @@ def main(folder_path):
         if not os.path.exists(m4a_path):
             convert_with_ffmpeg(original_path, m4a_path, "aac")
 
-        os.remove(original_path)
+        # os.remove(original_path)
+
+    ogg_files = [f for f in os.listdir(folder_path) if f.endswith('.ogg')]
+    samples = []
+    for file in ogg_files:
+        name = os.path.splitext(file)[0]
+        samples.append(name)
+
+    # sort samples
+    samples.sort()
 
     # Write to samples.json
     with open(os.path.join(folder_path, 'samples.json'), 'w') as f:
-        json.dump(slugged_files, f)
+        json.dump(samples, f)
 
 
 def list_subfolders(folder_path):
@@ -47,7 +57,6 @@ def list_subfolders(folder_path):
 
 
 folders = list_subfolders('audio/mellotron')
-folders = folders[0:10]
 print(f"Found {len(folders)} folders.")
 
 with open('audio/mellotron/instruments.json', 'w') as f:
